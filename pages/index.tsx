@@ -4,6 +4,8 @@ import { Hero } from '../components/Hero';
 import { Featured } from '../components/Featured';
 import { Herotours } from '../components/Herotours';
 import { WhyChooseUs } from '../components/WhyChooseUs';
+import { OurServices } from '../components/OurServices';
+
 export default function Home() {
   return (
     <>
@@ -19,6 +21,7 @@ export default function Home() {
         <Herotours />
         <Featured />
         <WhyChooseUs />
+        <OurServices />
       </div>
     </>
   );
