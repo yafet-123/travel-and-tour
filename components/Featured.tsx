@@ -29,7 +29,7 @@ export const Featured: React.FC = () => {
     },
   ];
   return (
-    <section className="mx-auto max-w-7xl mb-20">
+    <section className="mx-auto max-w-7xl mb-24">
       <h1 className="text-center text-5xl font-sans leading-10 font-bold text-[#165248] hover:text-[#165248] mb-16">
         FEATURED TOURS
       </h1>
