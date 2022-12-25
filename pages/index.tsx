@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/Hero';
-import { Featured } from '../components/Featured' 
-import { Herotours } from '../components/Herotours'
-import { WhyChooseUs } from '../components/WhyChooseUs'
+import { Featured } from '../components/Featured';
+import { Herotours } from '../components/Herotours';
+import { WhyChooseUs } from '../components/WhyChooseUs';
 export default function Home() {
   return (
     <>
