@@ -52,7 +52,7 @@ export const Featured: React.FC = () => {
       	))}
       </div>
 
-      <button className=" mt-10 font-sans font-extrabold text-center text-2xl py-5 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] w-[335px] border-2 border-white rounded-md">
+      <button className="mt-10 font-sans font-extrabold text-center text-2xl py-5 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] w-[335px] border-2 border-white rounded-md">
         Other Tours
       </button>
     </section>
