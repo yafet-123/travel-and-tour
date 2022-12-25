@@ -35,17 +35,28 @@ export const OurServices: React.FC = () => {
     },
   ];
   return (
-    <section className="h-[678px] w-full bg-white mt-20">
+    <section className="h-[678px] w-full bg-white my-20">
       <h1 className="w-full text-center text-5xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-20">
         OUR SERVICES
       </h1>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 mx-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 mx-20 my-20">
         {ServicesArray.map((data,index)=>(
           <div className="w-full h-[380px] bg-[#165248] mb-10 p-2" key={index}>
             <h1 className="w-full text-center text-3xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-10">
               {data.name}
             </h1>
+
+            <Image
+              src={data.icon}
+              className="w-[95.83px] h-[66.5px] brightness-50 object-cover box-border pl-3 pb-3"
+              priority
+              alt="Navbar"
+            />
+
+            <p className="w-full text-center text-xl px-10 font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C]">
+              {data.description}
+            </p>
           </div>
         ))}
       </div>

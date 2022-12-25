@@ -4,7 +4,7 @@ import heroImageOne from '../public/hero/heroImageOne.jpg';
 export const WhyChooseUs: React.FC = () => {
   return (
     <section className="h-[678px] w-full bg-white lg:bg-[#165248] my-20">
-      <div className="mx-20 flex justify-between flex-col lg:flex-row">
+      <div className="mx-5 lg:mx-20 flex justify-between flex-col lg:flex-row">
         <div className="flex flex-col lg:mt-44">
           <h1 className="w-full text-center lg:text-left text-5xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-10">
             WHY CHOOSE US

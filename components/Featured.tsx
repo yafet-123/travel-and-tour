@@ -38,11 +38,11 @@ export const Featured: React.FC = () => {
         {FieldTour.map((data, index) => (
           <div
             key={index}
-            className="w-[600px] h-[281px] bg-green-300 relative"
+            className="w-full lg:w-[600px] h-[281px] bg-green-300 relative"
           >
             <Image
               src={data.image}
-              className="w-[600px] h-[281px] brightness-50 object-cover box-border"
+              className="w-full lg:w-[600px] h-[281px] brightness-50 object-cover box-border"
               priority
               alt="Navbar"
             />

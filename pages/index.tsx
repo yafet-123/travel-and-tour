@@ -5,6 +5,7 @@ import { Featured } from '../components/Featured';
 import { Herotours } from '../components/Herotours';
 import { WhyChooseUs } from '../components/WhyChooseUs';
 import { OurServices } from '../components/OurServices';
+import { AboutUs } from '../components/AboutUs';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Featured />
         <WhyChooseUs />
         <OurServices />
+        <AboutUs />
       </div>
     </>
   );
