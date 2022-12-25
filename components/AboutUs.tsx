@@ -4,7 +4,7 @@ import heroImageOne from '../public/hero/heroImageOne.jpg';
 export const AboutUs: React.FC = () => {
   return (
     <section className="h-[695px] w-full bg-[#165248] my-20 ">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto flex flex-col justify-between">
         <h1 className="w-full text-center text-5xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-10">
           ABOUT US
         </h1>

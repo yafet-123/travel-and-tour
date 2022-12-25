@@ -9,7 +9,7 @@ export const WhyChooseUs: React.FC = () => {
           <h1 className="w-full text-center lg:text-left text-5xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-10">
             WHY CHOOSE US
           </h1>
-          <p className="w-full lg:w-2/4 text-center lg:text-left text-2xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-24">
+          <p className="w-full lg:w-2/4 text-center lg:text-left text-lg lg:text-2xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-24">
             We are proud to offer excellent quality and value for money in our
             tours, which give you the chance to experience your chosen
             destination in an authentic and exciting way.

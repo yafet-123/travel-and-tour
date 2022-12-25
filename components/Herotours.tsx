@@ -23,11 +23,11 @@ export const Herotours: React.FC = () => {
   ];
 
   return (
-    <div className="relative flex flex-col text-white my-12 mx-[5%] justify-between lg:flex-row lg:-mt-20 lg:my-10">
+    <div className="flex flex-col text-white my-12 mx-[5%] justify-between lg:flex-row lg:-mt-20 lg:my-10">
       {TourArray.map((data, index) => (
         <div
           key={index}
-          className="w-full lg:w-[30%] h-[670px] bg-[#94BB3C] mb-10 p-2"
+          className="w-full lg:w-[30%] h-[670px] bg-[#94BB3C] mb-10 p-2 relative"
         >
           <Image
             src={data.image}
