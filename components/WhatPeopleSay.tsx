@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import personImageOne from '../public/person.jpg';
+import personImageOne from '../public/profile.jpg';
 
 export const WhatPeopleSay: React.FC = () => {
-	const TourArray = [
+	const sayArrays = [
     {
       image: personImageOne,
       name: 'Personal Name',
@@ -26,7 +26,7 @@ export const WhatPeopleSay: React.FC = () => {
         	</h1>
 
         	<div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-10 mt-28">
-        		{TourArray.map((data, index) => (
+        		{sayArrays.map((data, index) => (
         <div
           key={index}
           className="w-full h-[281px] bg-[#94BB3C] mb-10 p-2 relative bg-white"
