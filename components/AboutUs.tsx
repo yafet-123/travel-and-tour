@@ -8,7 +8,7 @@ export const AboutUs: React.FC = () => {
         <h1 className="w-full text-center text-5xl font-sans leading-[50px] font-bold text-white hover:text-[#94BB3C] mb-10">
           ABOUT US
         </h1>
-        <p className="w-full text-center text-lg lg:text-3xl font-sans leading-10 font-bold text-[#165248] lg:text-white hover:text-[#94BB3C] mb-24">
+        <p className="w-full text-center text-lg lg:text-3xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
           Eco-travel Ethiopia was founded to offer environmentally-friendly tours. our commitment is as reflected in our name 
           offering tours with a softer footprint. We believe that Protecting the places we visit is necessary to ensure we can 
           continue to introduce travelers to the spectacular beauty of Ethiopia.
