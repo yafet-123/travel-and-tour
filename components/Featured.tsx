@@ -38,7 +38,7 @@ export const Featured: React.FC = () => {
         {FieldTour.map((data, index) => (
           <div
             key={index}
-            className="w-full lg:w-[600px] h-[290px] bg-green-300 relative "
+            className="w-full lg:w-[600px] h-full lg:h-[290px] bg-green-300 relative "
           >
             <Image
               src={data.image}
@@ -52,7 +52,7 @@ export const Featured: React.FC = () => {
             <p className="absolute px-5 top-16 w-full text-lg text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C]">
               {data.description}
             </p>
-            <button className="absolute left-1/2 -translate-x-1/2 bottom-5 font-sans font-extrabold text-center text-xl py-2 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] w-[210px] border-2 border-white rounded-md">
+            <button className="absolute left-1/2 -translate-x-1/2 bottom-5 font-sans font-extrabold text-center text-xl py-2 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
               Read More
             </button>
           </div>

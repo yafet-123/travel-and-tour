@@ -3,7 +3,7 @@ import heroImageOne from '../public/hero/heroImageOne.jpg';
 
 export const AboutUs: React.FC = () => {
   return (
-    <section className="h-full lg:h-[695px] w-full bg-[#165248]">
+    <section className="h-full lg:h-[695px] w-full bg-[#165248] mb-10">
       <div className="max-w-5xl mx-auto flex flex-col justify-between items-center py-20">
         <h1 className="w-full text-center text-5xl font-sans leading-[50px] font-bold text-white hover:text-[#94BB3C] mb-10">
           ABOUT US

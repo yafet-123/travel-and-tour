@@ -17,8 +17,8 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav className="w-full bg-[#165248] lg:h-[100px] ">
-      <div className="justify-between px-4 mx-10 items-center md:flex py-[10px] ">
-        <div className="flex items-center justify-between py-3 md:block">
+      <div className="justify-between px-4 mx-10 items-center lg:flex py-[10px] ">
+        <div className="flex items-center justify-between py-3 lg:block">
           <Link href="#">
             <Image
               src={navbarImage}
@@ -26,7 +26,7 @@ export const Navbar: React.FC = () => {
               alt="Navbar"
             />
           </Link>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
               onClick={() => setNavbar(!navbar)}
@@ -66,11 +66,11 @@ export const Navbar: React.FC = () => {
 
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
               navbar ? 'flex' : 'hidden'
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-16 md:space-y-0">
+            <ul className="items-center justify-center space-y-8 lg:flex lg:space-x-16 lg:space-y-0">
               {NavbarList.map((data, index) => (
                 <li key={index} className="text-white">
                   <Link href={data.path}>
@@ -83,7 +83,7 @@ export const Navbar: React.FC = () => {
 
               <li className="text-white">
                 <Link href="#">
-                  <h1 className="font-sans text-xl leading-6 p-2 bg-[#94BB3C] hover:bg-white font-bold text-white hover:text-[#94BB3C] w-44 md:w-full border-[#165248] rounded-md">
+                  <h1 className="font-sans text-xl leading-6 p-2 bg-[#94BB3C] hover:bg-white font-bold text-white hover:text-[#94BB3C] w-44 lg:w-full border-[#165248] rounded-md">
                     CONTACT
                   </h1>
                 </Link>

@@ -6,6 +6,7 @@ import { Herotours } from '../components/Herotours';
 import { WhyChooseUs } from '../components/WhyChooseUs';
 import { OurServices } from '../components/OurServices';
 import { AboutUs } from '../components/AboutUs';
+import { WhatPeopleSay } from '../components/WhatPeopleSay';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <WhyChooseUs />
         <OurServices />
         <AboutUs />
+        <WhatPeopleSay />
       </div>
     </>
   );
