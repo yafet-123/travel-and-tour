@@ -1,31 +1,31 @@
 import Image from 'next/image';
-import heroImageOne from '../public/hero/heroImageOne.jpg';
+import personImageOne from '../public/person.jpg';
 
 export const WhatPeopleSay: React.FC = () => {
 	const TourArray = [
     {
-      image: heroImageOne,
-      name: 'Historical Routes',
-      description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+      image: personImageOne,
+      name: 'Personal Name',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {
-      image: heroImageOne,
-      name: 'Mountain Trekking',
-      description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+      image: personImageOne,
+      name: 'Personal Name',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {
-      image: heroImageOne,
-      name: 'Adventure Expeditions',
-      description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+      image: personImageOne,
+      name: 'Personal Name',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
   ];
 	return(
-		<section className="h-full lg:h-[678px] w-full bg-[#94BB3C] mt-24">
-			<h1 className="w-full text-center text-5xl font-sans leading-[50px] font-semibold text-[#165248] hover:text-white my-10">
+		<section className="h-full lg:h-[678px] w-full bg-[#94BB3C] my-20">
+			<h1 className="w-full text-center text-5xl font-sans leading-[50px] font-semibold text-[#165248] hover:text-white my-20">
           		WHAT PEOPLE SAY
         	</h1>
 
-        	<div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-10">
+        	<div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-10 mt-28">
         		{TourArray.map((data, index) => (
         <div
           key={index}
@@ -33,16 +33,16 @@ export const WhatPeopleSay: React.FC = () => {
         >
           <Image
             src={data.image}
-            className="w-32 h-32 rounded-full absolute"
+            className="w-28 h-28 rounded-full absolute left-1/2 -translate-x-1/2 -top-1/4 mb-20"
             priority
-            alt="Navbar"
+            alt="person"
           />
-          <h3 className="text-4xl text-center lg:text-left font-sans leading-10 font-bold text-white hover:text-[#94BB3C]">
-            {data.name}
-          </h3>
-          <p className="px-10 w-full lg:w-72 text-2xl text-center lg:text-left font-sans leading-10 font-bold text-white hover:text-[#94BB3C]">
+          <p className="absolute top-16 px-10 w-full text-lg text-center font-sans leading-10 font-bold text-black hover:text-[#94BB3C]">
             {data.description}
           </p>
+          <h3 className="absolute bottom-5 text-xl w-full text-center font-sans leading-10 font-bold text-black hover:text-[#94BB3C]">
+            {data.name}
+          </h3>
         </div>
       ))}
         	</div>
