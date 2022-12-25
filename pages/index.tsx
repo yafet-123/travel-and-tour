@@ -3,7 +3,7 @@ import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/Hero';
 import { Featured } from '../components/Featured' 
 import { Herotours } from '../components/Herotours'
-import { Whychooseus } from '../components/WhyChooseUs'
+import { WhyChooseUs } from '../components/WhyChooseUs'
 export default function Home() {
   return (
     <>
@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
         <Herotours />
         <Featured />
-        <Whychooseus />
+        <WhyChooseUs />
       </div>
     </>
   );

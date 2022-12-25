@@ -4,7 +4,7 @@ import heroImageOne from '../public/hero/heroImageOne.jpg';
 import heroImageTwo from '../public/hero/heroImageTwo.jpg';
 import heroImageThree from '../public/hero/heroImageThree.jpg';
 export const Herotours: React.FC = () => {
-  const ProjectsArray = [
+  const TourArray = [
     {
       image: heroImageOne,
       name: 'Historical Routes',
@@ -24,7 +24,7 @@ export const Herotours: React.FC = () => {
 
   return(
     <div className="relative flex flex-col text-white my-12 mx-[5%] justify-between lg:flex-row lg:-mt-20 lg:my-10">
-        {ProjectsArray.map((data, index) => (
+        {TourArray.map((data, index) => (
           <div
             key={index}
             className="w-full lg:w-[30%] h-[670px] bg-[#94BB3C] mb-10 p-2"
