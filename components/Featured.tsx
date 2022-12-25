@@ -34,22 +34,22 @@ export const Featured: React.FC = () => {
         FEATURED TOURS
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-28 px-10">
         {FieldTour.map((data, index) => (
           <div
             key={index}
-            className="w-full lg:w-[600px] h-[281px] bg-green-300 relative"
+            className="w-full lg:w-[600px] h-[290px] bg-green-300 relative "
           >
             <Image
               src={data.image}
-              className="w-full lg:w-[600px] h-[281px] brightness-50 object-cover box-border"
+              className="w-full lg:w-[600px] h-[290px] brightness-50 object-cover box-border"
               priority
               alt="Navbar"
             />
-            <h3 className="absolute top-5 w-full text-3xl text-center font-sans leading-10 font-bold text-white hover:text-[#94BB3C]">
+            <h3 className="absolute top-5 w-full text-xl lg:text-3xl text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C] ">
               {data.name}
             </h3>
-            <p className="absolute px-10 top-20 w-full text-xl text-center font-sans leading-10 font-bold text-white hover:text-[#94BB3C]">
+            <p className="absolute px-5 top-16 w-full text-lg text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C]">
               {data.description}
             </p>
             <button className="absolute left-1/2 -translate-x-1/2 bottom-5 font-sans font-extrabold text-center text-xl py-2 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] w-[210px] border-2 border-white rounded-md">
@@ -59,9 +59,11 @@ export const Featured: React.FC = () => {
         ))}
       </div>
 
-      <button className="mt-10 font-sans font-extrabold text-center text-2xl py-5 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] w-[335px] border-2 border-white rounded-md">
-        Other Tours
-      </button>
+      <div className="text-center">
+        <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-5 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+          Other Tours
+        </button>
+      </div>
     </section>
   );
 };

@@ -35,14 +35,14 @@ export const OurServices: React.FC = () => {
     },
   ];
   return (
-    <section className="h-[678px] w-full bg-white my-20">
+    <section className="h-full w-full bg-white my-20">
       <h1 className="w-full text-center text-5xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-20">
         OUR SERVICES
       </h1>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mx-5 lg:mx-20 my-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 px-5 lg:px-20 my-20">
         {ServicesArray.map((data,index)=>(
-          <div className="w-full h-[380px] bg-[#165248] mb-10 p-2" key={index}>
+          <div className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-20 px-2" key={index}>
             <h1 className="w-full text-center text-lg lg:text-3xl font-sans leading-5 lg:leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
               {data.name}
             </h1>
