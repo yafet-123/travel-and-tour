@@ -1,27 +1,25 @@
 import Image from 'next/image';
-import heroImage from '../public/hero/hero.jpg';
-export const Hero: React.FC = () => {
+import contactImageOne from '../public/hero/contactImage.jpg';
+
+export const HeroContact: React.FC = () => {
   return (
     <section className="relative">
       <div className="w-full h-[663px] w-full">
         <Image
-          src={heroImage}
-          className="w-full h-[663px] brightness-50"
+          src={contactImageOne}
+          className="w-full h-[700px] object-cover brightness-50"
           priority
-          alt="Navbar"
+          alt="Contact"
         />
         <div className="absolute top-10 flex flex-col justify-between left-0 right-0 m-auto w-full lg:w-[40%]">
           <h1 className="text-center text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
-            Trust Our Experience
+            WE LOVE TO HEAR FROM YOU
           </h1>
           <p className="text-center text-3xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
-            Eco-Travel Ethiopia Offers You Sustainable and Environmentally
-            Friendly Tours.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit laborum. sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit laborum.
           </p>
-
-          <h1 className="mx-auto font-sans font-extrabold text-center text-3xl py-3 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] w-52 border-2 border-white rounded-md">
-            See Tours
-          </h1>
         </div>
       </div>
     </section>

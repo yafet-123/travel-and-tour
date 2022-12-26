@@ -6,32 +6,38 @@ export const OurServices: React.FC = () => {
     {
       icon: heroImage,
       name: 'Wide Variety of Tours',
-      description: 'We offer a wide variety of personally picked tours with destinations all over Ethiopia.',
+      description:
+        'We offer a wide variety of personally picked tours with destinations all over Ethiopia.',
     },
     {
       icon: heroImage,
       name: 'Highly Qualified Service',
-      description: 'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
+      description:
+        'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
     },
     {
       icon: heroImage,
       name: '24/7 Support',
-      description: 'You can always get professional support from our staff 24/7 and ask any question you have.',
+      description:
+        'You can always get professional support from our staff 24/7 and ask any question you have.',
     },
     {
       icon: heroImage,
       name: 'Personalized Matching',
-      description: 'We offer a wide variety of personally picked tours with destinations all over Ethiopia.',
+      description:
+        'We offer a wide variety of personally picked tours with destinations all over Ethiopia.',
     },
     {
       icon: heroImage,
       name: 'Handpicked Hotels',
-      description: 'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
+      description:
+        'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
     },
     {
       icon: heroImage,
       name: 'Best Price Guarantee',
-      description: 'You can always get professional support from our staff 24/7 and ask any question you have.',
+      description:
+        'You can always get professional support from our staff 24/7 and ask any question you have.',
     },
   ];
   return (
@@ -41,8 +47,11 @@ export const OurServices: React.FC = () => {
       </h1>
 
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 px-5 lg:px-20 my-20">
-        {ServicesArray.map((data,index)=>(
-          <div className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-20 px-2" key={index}>
+        {ServicesArray.map((data, index) => (
+          <div
+            className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-20 px-2"
+            key={index}
+          >
             <h1 className="w-full text-center text-lg lg:text-3xl font-sans leading-5 lg:leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
               {data.name}
             </h1>

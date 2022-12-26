@@ -7,6 +7,7 @@ import { WhyChooseUs } from '../components/WhyChooseUs';
 import { OurServices } from '../components/OurServices';
 import { AboutUs } from '../components/AboutUs';
 import { WhatPeopleSay } from '../components/WhatPeopleSay';
+import { Footer } from '../components/Footer';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <OurServices />
         <AboutUs />
         <WhatPeopleSay />
+        <Footer />
       </div>
     </>
   );

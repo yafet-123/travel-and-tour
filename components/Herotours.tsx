@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import heroImage from '../public/hero/hero.jpg';
 import heroImageOne from '../public/hero/heroImageOne.jpg';
 import heroImageTwo from '../public/hero/heroImageTwo.jpg';
 import heroImageThree from '../public/hero/heroImageThree.jpg';
