@@ -60,7 +60,7 @@ export const ToursDestination: React.FC = () => {
     },
   ];
   return(
-    <section className="mx-20 py-10">
+    <section className="mx-0 lg:mx-20 py-10">
       <div className="flex flex-col my-10">
         {FieldTour.map((data, index) => (
           <div
@@ -69,27 +69,29 @@ export const ToursDestination: React.FC = () => {
           >
             <Image
               src={data.image}
-              className="w-full lg:w-[600px] h-[423px] object-fit box-border border-transparent rounded-xl"
+              className="w-full lg:w-[600px] h-[300px] lg:h-[423px] object-cover lg:object-fit box-border border-transparent rounded-xl"
               priority
               alt="Navbar"
             />
 
-            <div className="flex flex-col justify-between my-10">
-              <h3 className="w-full text-xl lg:text-4xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C] ">
+            <div className="flex flex-col justify-between my-5 lg:my-10">
+              <h3 className="w-full text-xl lg:text-4xl text-center text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
                 {data.name}
               </h3>
-              <p className="w-3/4 text-xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
+              <p className="w-full lg:w-3/4 text-sm lg:text-xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
                 {data.description}
               </p>
-              <button className="w-52 font-sans font-extrabold text-xl py-3 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
-                Buy Tour
-              </button>
+              <div className="text-center lg:text-left">
+                <button className="mt-10 w-52 font-sans text-center font-extrabold text-xl py-3 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+                  Buy Tour
+                </button>
+              </div>
             </div>
           </div>
         ))}
 
-        <div className="text-center">
-          <button className="my-10 w-96 font-sans font-extrabold text-3xl py-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-8 border-[#165248] rounded-md">
+        <div className="text-center mx-16">
+          <button className="my-10 w-full lg:w-96 font-sans font-extrabold text-3xl py-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-8 border-[#165248] rounded-md">
                 Get In Touch
               </button>
         </div>
