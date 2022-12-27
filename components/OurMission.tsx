@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import heroImageOne from '../public/hero/heroImageOne.jpg';
+import AboutUsHeroImage from '../public/aboutus/AboutUsHero.jpg';
 
 export const OurMission: React.FC = () => {
   return (
@@ -7,8 +7,8 @@ export const OurMission: React.FC = () => {
       <div className="mx-5 lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 lg:mt-52">
         <div className="w-full h-[300px] lg:h-[548px] bg-[#165248]">
           <Image
-            src={heroImageOne}
-            className="w-full h-full lg:h-[548px] brightness-50 object-cover box-border pl-3 pb-3"
+            src={AboutUsHeroImage}
+            className="w-full h-full lg:h-[548px] object-cover box-border pl-3 pb-3"
             priority
             alt="Navbar"
           />
