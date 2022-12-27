@@ -3,7 +3,7 @@ import { AboutUsHero } from '../components/AboutUsHero';
 import { AboutUsDetail } from '../components/AboutUsDetail';
 import { Footer } from '../components/Footer';
 import { FollowingTheDream } from '../components/FollowingTheDream';
-import { OurMission } from '../components/OurMission'
+import { OurMission } from '../components/OurMission';
 export default function Contact() {
   return (
     <div className="flex flex-col">
@@ -12,6 +12,7 @@ export default function Contact() {
       <AboutUsDetail />
       <FollowingTheDream />
       <OurMission />
+      <OurVision />
       <Footer />
     </div>
   );

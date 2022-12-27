@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import heroImageOne from '../public/hero/heroImageOne.jpg';
 
-export const OurMission: React.FC = () => {
+export const OurVision: React.FC = () => {
   return (
     <section className="h-full lg:h-[678px] w-full bg-[#94BB3C] my-20">
       <div className="mx-5 lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 lg:mt-52">
