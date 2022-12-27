@@ -6,8 +6,8 @@ import TourFive from '../public/tour/TourFive.jpg';
 import TourSix from '../public/tour/TourSix.jpg';
 import TourSeven from '../public/tour/TourSeven.jpg';
 import TourEight from '../public/tour/TourEight.jpg';
-
 import Image from 'next/image';
+
 export const ToursDestination: React.FC = () => {
   const FieldTour = [
     {
