@@ -59,7 +59,7 @@ export const ToursDestination: React.FC = () => {
         'Addis Ababa a historical place where Emperor Menelik II resided and built his palace, when he came from Ankober and founded Addis Ababa. It is considered a sacred mountain and has many monasteries.  Mount Entoto is also ... ',
     },
   ];
-  return(
+  return (
     <section className="mx-0 lg:mx-20 py-10">
       <div className="flex flex-col my-10">
         {FieldTour.map((data, index) => (
@@ -75,7 +75,7 @@ export const ToursDestination: React.FC = () => {
             />
 
             <div className="flex flex-col justify-between my-5 lg:my-10">
-              <h3 className="w-full text-xl lg:text-4xl text-center text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
+              <h3 className="w-full text-xl lg:text-4xl text-center lg:text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
                 {data.name}
               </h3>
               <p className="w-full lg:w-3/4 text-sm lg:text-xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
@@ -92,11 +92,10 @@ export const ToursDestination: React.FC = () => {
 
         <div className="text-center mx-16">
           <button className="my-10 w-full lg:w-96 font-sans font-extrabold text-3xl py-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-8 border-[#165248] rounded-md">
-                Get In Touch
-              </button>
+            Get In Touch
+          </button>
         </div>
-
       </div>
     </section>
-  )
+  );
 };
