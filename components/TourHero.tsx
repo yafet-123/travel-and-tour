@@ -29,16 +29,16 @@ export const TourHero: React.FC = () => {
     },
   ];
   return (
-    <section className="w-full h-full lg:h-[663px]">
+    <section className="w-full h-[700px]">
       <div className="relative">
         <Image
           src={TourOne}
-          className="w-full h-[700px] object-fit brightness-75"
+          className="w-full h-[800px] object-cover lg:object-fit brightness-75"
           priority
           alt="Contact"
         />
         <div className="absolute top-10 flex flex-col justify-between left-0 right-0 w-full">
-          <h1 className="mx-auto text-3xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-32">
+          <h1 className="mx-auto text-xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-10 lg:mb-32">
             Ultimate Ethiopian Wildlife Tour
           </h1>
 
