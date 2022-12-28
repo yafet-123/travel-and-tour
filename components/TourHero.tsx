@@ -29,24 +29,24 @@ export const TourHero: React.FC = () => {
     },
   ];
   return (
-    <section className="w-full h-[700px] mb-10">
+    <section className="w-full h-full lg:h-[700px] mb-10">
       <div className="relative">
         <Image
           src={TourOne}
-          className="w-full h-[700px] object-cover lg:object-fit brightness-75"
+          className="w-full h-[800px] lg:h-[700px] object-cover lg:object-fit brightness-75"
           priority
           alt="Contact"
         />
         <div className="absolute top-10 flex flex-col justify-between left-0 right-0 w-full">
-          <h1 className="mx-auto text-xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-10 lg:mb-32">
+          <h1 className="mx-auto text-xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-5 lg:mb-32">
             Ultimate Ethiopian Wildlife Tour
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-20 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10 px-20 w-full">
             {ToursGuide.map((data, index) => (
               <div
                 key={index}
-                className="w-full h-[199px] border rounded-3xl flex flex-col justify-around items-center bg-[#165248] bg-opacity-50"
+                className="w-full h-[143px] lg:h-[199px] border rounded-3xl flex flex-col justify-around items-center bg-[#165248] bg-opacity-50"
               >
                 <span className="text-white text-center">{data.icon}</span>
                 <h1 className="text-center text-xl font-sans leading-10 font-black text-white hover:text-[#94BB3C]">

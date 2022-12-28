@@ -82,7 +82,7 @@ export const TourAbout: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse lg:flex-row justify-between bg-white px-5 lg:px-52">
+      <div className="flex flex-col lg:flex-row justify-between bg-white px-5 lg:px-52">
         <div className="flex flex-col">
           <h1 className="text-center lg:text-left text-4xl font-sans leading-10 font-black text-[#165248] hover:text-[#94BB3C] mb-10">
             Included
@@ -96,7 +96,7 @@ export const TourAbout: React.FC = () => {
 
         <div className="flex flex-col">
           <h1 className="text-center lg:text-left text-4xl font-sans leading-10 font-black text-[#165248] hover:text-[#94BB3C] mb-10">
-            Included
+            Not Included
           </h1>
           {NotIncluded.map((data, index) => (
             <p className="mr-10 w-full text-left text-lg md:text-xl lg:text-2xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5">

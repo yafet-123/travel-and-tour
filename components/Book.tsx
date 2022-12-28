@@ -16,14 +16,14 @@ export const Book: React.FC = () => {
           <input
             type="date"
             id="arrivalDate"
-            className="bg-gray-50 border border-gray-300 text-black text-xl rounded-lg focus:ring-[#165248] focus:border-[#165248] block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="name@flowbite.com"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
+            placeholder="Arrival Date"
             required
           />
         </div>
         <div className="">
           <label
-            htmlFor="arrivalDate"
+            htmlFor="departureDate"
             className="block mb-2 text-2xl font-bold text-white"
           >
             Departure Date
@@ -31,7 +31,7 @@ export const Book: React.FC = () => {
           <input
             type="date"
             id="departureDate"
-            className="bg-gray-50 border border-gray-300 text-black text-xl rounded-lg focus:ring-[#165248] focus:border-[#165248] block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
             placeholder="name@flowbite.com"
             required
           />
@@ -45,13 +45,15 @@ export const Book: React.FC = () => {
           </label>
           <select
             id="adult"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
           >
             <option selected>1</option>
-            <option value="US">2</option>
-            <option value="CA">3</option>
-            <option value="FR">3</option>
-            <option value="DE">3</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
           </select>
         </div>
 
@@ -64,13 +66,16 @@ export const Book: React.FC = () => {
           </label>
           <select
             id="adult"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
           >
             <option selected>0</option>
-            <option value="US">2</option>
-            <option value="CA">3</option>
-            <option value="FR">3</option>
-            <option value="DE">3</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
           </select>
         </div>
 
@@ -153,7 +158,7 @@ export const Book: React.FC = () => {
         ></textarea>
       </div>
       <div className="text-center">
-        <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-10 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+        <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-16 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
           Book Now
         </button>
       </div>
