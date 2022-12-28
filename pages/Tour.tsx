@@ -1,6 +1,6 @@
 import { Navbar } from '../components/Navbar';
 import { TourHero } from '../components/TourHero';
-import { ToursDestination } from '../components/ToursDestination';
+import { TourAbout } from '../components/TourAbout';
 import { Footer } from '../components/Footer';
 
 export default function Contact() {
@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="flex flex-col">
       <Navbar />
       <TourHero />
-      <ToursDestination />
+      <TourAbout />
       <Footer />
     </div>
   );
