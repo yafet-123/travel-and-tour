@@ -75,29 +75,88 @@ export const Book: React.FC = () => {
         </div>
 
         <div>
-            <label htmlFor="fullName" className="block mb-2 text-2xl font-bold text-white">Full Name</label>
-            <input type="text" id="fullName" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Full Name Here" required />
+          <label
+            htmlFor="fullName"
+            className="block mb-2 text-2xl font-bold text-white"
+          >
+            Full Name
+          </label>
+          <input
+            type="text"
+            id="fullName"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
+            placeholder="Enter Full Name Here"
+            required
+          />
         </div>
 
         <div>
-            <label htmlFor="country" className="block mb-2 text-2xl font-bold text-white">Country</label>
-            <input type="text" id="country" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Your Country Here" required />
+          <label
+            htmlFor="country"
+            className="block mb-2 text-2xl font-bold text-white"
+          >
+            Country
+          </label>
+          <input
+            type="text"
+            id="country"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
+            placeholder="Enter Your Country Here"
+            required
+          />
         </div>
 
         <div>
-            <label htmlFor="email" className="block mb-2 text-2xl font-bold text-white">Your Email Address</label>
-            <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Email Address Here" required />
+          <label
+            htmlFor="email"
+            className="block mb-2 text-2xl font-bold text-white"
+          >
+            Your Email Address
+          </label>
+          <input
+            type="email"
+            id="email"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
+            placeholder="Enter Email Address Here"
+            required
+          />
         </div>
 
         <div>
-            <label htmlFor="phoneNumber" className="block mb-2 text-2xl font-bold text-white">Your Phone Number</label>
-            <input type="text" id="phoneNumber" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Phone Number Here" required />
+          <label
+            htmlFor="phoneNumber"
+            className="block mb-2 text-2xl font-bold text-white"
+          >
+            Your Phone Number
+          </label>
+          <input
+            type="text"
+            id="phoneNumber"
+            className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
+            placeholder="Enter Phone Number Here"
+            required
+          />
         </div>
       </div>
-      <div>
-          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-<textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
-        </div>
+      <div  className="my-10">
+        <label
+          htmlFor="message"
+          className="block mb-2 text-2xl font-bold text-white"
+        >
+          Note
+        </label>
+        <textarea
+          id="message"
+          rows="5"
+          className="bg-white border border-[#165248] text-gray-900 text-2xl rounded-lg block w-full p-5 placeholder:text-2xl placeholder:text-[#BABABA]"
+          placeholder="Anything? Write it here."
+        ></textarea>
+      </div>
+      <div className="text-center">
+        <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-10 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+          Book Now
+        </button>
+      </div>
     </section>
   );
 };
