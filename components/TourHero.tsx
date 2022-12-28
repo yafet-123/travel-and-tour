@@ -29,11 +29,11 @@ export const TourHero: React.FC = () => {
     },
   ];
   return (
-    <section className="w-full h-[700px]">
+    <section className="w-full h-[700px] mb-10">
       <div className="relative">
         <Image
           src={TourOne}
-          className="w-full h-[800px] object-cover lg:object-fit brightness-75"
+          className="w-full h-[700px] object-cover lg:object-fit brightness-75"
           priority
           alt="Contact"
         />
