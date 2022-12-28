@@ -13,7 +13,7 @@ export const OurMission: React.FC = () => {
             alt="Navbar"
           />
         </div>
-        <div className="flex flex-col ">
+        <div className="flex flex-col lg:ml-20">
           <h1 className="w-full text-center lg:text-left text-4xl lg:text-5xl font-sans  font-bold text-white hover:text-black mb-10">
             OUR MISSION
           </h1>

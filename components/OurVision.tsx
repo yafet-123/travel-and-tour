@@ -3,9 +3,9 @@ import AboutUsHeroImageOne from '../public/aboutus/AboutUsHeroImageOne.jpg';
 
 export const OurVision: React.FC = () => {
   return (
-    <section className="h-full lg:h-[678px] w-full bg-[#165248] my-20">
-      <div className="mx-5 lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
-        <div className="flex flex-col lg:mt-52">
+    <section className="h-full lg:h-[678px] w-full my-20">
+      <div className="px-5 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 bg-[#165248]">
+        <div className="flex flex-col mt-10 lg:mt-52">
           <h1 className="w-full text-center lg:text-left text-4xl lg:text-5xl font-sans  font-bold text-white hover:text-black mb-10">
             OUR VISION
           </h1>
@@ -24,6 +24,11 @@ export const OurVision: React.FC = () => {
             alt="Navbar"
           />
         </div>
+      </div>
+      <div className="text-center mx-16">
+        <button className="my-10 w-full lg:w-96 font-sans font-extrabold text-3xl py-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-8 border-[#165248] rounded-md">
+          Get In Touch
+        </button>
       </div>
     </section>
   );
