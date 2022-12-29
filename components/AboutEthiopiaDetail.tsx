@@ -49,8 +49,8 @@ export const AboutEthiopiaDetail: React.FC = () => {
     <section className="py-10">
       <div className="mx-0 lg:mx-20">
         {Detail.map((data, index) => (
-          <div className="flex flex-row even:flex-row-reverse">
-            <div className="flex flex-col justify-between items-center bg-[#165248] w-1/2 pt-10 px-20">
+          <div className="flex flex-col lg:flex-row lg:even:flex-row-reverse mb-3">
+            <div className="flex flex-col justify-between items-center bg-[#165248] w-full lg:w-1/2 pt-10 lg:px-20">
               <h1 className="text-center text-3xl lg:text-4xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
                 {data.head}
               </h1>
@@ -59,10 +59,10 @@ export const AboutEthiopiaDetail: React.FC = () => {
               </p>
             </div>
 
-            <div className="w-1/2">
+            <div className="w-full lg:w-1/2 lg:px-10 p-5 lg:p-0 my-auto">
               <Image
                 src={data.image}
-                className="w-1/2 h-1/2 object-cover brightness-75 border rounded-2xl"
+                className="w-full h-[300px] object-cover brightness-75 border rounded-2xl"
                 priority
                 alt="AboutUsEthiopia"
               />
@@ -71,7 +71,7 @@ export const AboutEthiopiaDetail: React.FC = () => {
         ))}
       </div>
 
-      <div className="w-full h-full lg:h-[400px] bg-[#165248] py-32 px-96 my-20">
+      <div className="w-full h-full lg:h-[400px] bg-[#165248] py-32 px-0 lg:px-96 my-20">
         <p className="mx-5 text-center text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
           Addis Ababa now boasts of a wide variety of restaurants traditional,
           Italian, Far East and western, and at hotels in tourist sites European
@@ -83,7 +83,7 @@ export const AboutEthiopiaDetail: React.FC = () => {
         </p>
       </div>
 
-      <div className="text-center">
+      <div className="text-center mb-10">
         <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-16 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
           Get In Touch
         </button>
