@@ -44,9 +44,8 @@ export const TravelTipsDetail: React.FC = () => {
   return (
     <section className="mx-0 lg:mx-20 py-10">
      <div className="mx-0 lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
-     	<div key={index} className="flex flex-col lg:flex-row lg:even:flex-row-reverse even:bg-[#165248]">
         {Detail.map((data, index) => (
-          
+          <div key={index} className="flex flex-col lg:flex-row first:bg-[#165248] odd:bg-[#165248]">
             <div className="flex flex-col items-center w-full pt-5 lg:px-10">
               <h1 className="text-center text-3xl lg:text-4xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
                 {data.name}
@@ -56,9 +55,8 @@ export const TravelTipsDetail: React.FC = () => {
               	className="mx-5 text-center text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24"
               />
             </div>
-          
+          </div>
         ))}
-        </div>
       </div>
     </section>
   );
