@@ -43,26 +43,19 @@ export const TravelTipsDetail: React.FC = () => {
   ];
   return (
     <section className="mx-0 lg:mx-20 py-10">
-     <div className="mx-0 lg:mx-20">
+     <div className="mx-0 lg:mx-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
         {Detail.map((data, index) => (
-          <div className="flex flex-col lg:flex-row lg:even:flex-row-reverse mb-3">
-            <div className="flex flex-col justify-between items-center bg-[#165248] w-full lg:w-1/2 pt-10 lg:px-20">
+          <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col items-center bg-[#165248] w-full pt-5 lg:px-10">
               <h1 className="text-center text-3xl lg:text-4xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
-                {data.head}
+                {data.name}
               </h1>
-              <p className="mx-5 text-center text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
-                {data.description}
-              </p>
+              <div className="mx-5 text-center text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
+                dangerouslySetInnerHTML={{ __html: data.description }}
+              </div>
             </div>
 
-            <div className="w-full lg:w-1/2 lg:px-10 p-5 lg:p-0 my-auto">
-              <Image
-                src={data.image}
-                className="w-full h-[300px] object-cover brightness-75 border rounded-2xl"
-                priority
-                alt="AboutUsEthiopia"
-              />
-            </div>
+            
           </div>
         ))}
       </div>
