@@ -46,8 +46,8 @@ export const AboutEthiopiaDetail: React.FC = () => {
     },
   ];
   return (
-    <section className="mx-0 lg:mx-20 py-10">
-      <div className="">
+    <section className="py-10">
+      <div className="mx-0 lg:mx-20">
         {Detail.map((data, index) => (
           <div className="flex flex-row even:flex-row-reverse">
             <div className="flex flex-col justify-between items-center bg-[#165248] w-1/2 pt-10 px-20">
@@ -71,10 +71,22 @@ export const AboutEthiopiaDetail: React.FC = () => {
         ))}
       </div>
 
-      <div className="w-full h-full lg:h-[560px] bg-[#165248]">
+      <div className="w-full h-full lg:h-[400px] bg-[#165248] py-32 px-96 my-20">
         <p className="mx-5 text-center text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
-          Addis Ababa now boasts of a wide variety of restaurants traditional, Italian, Far East and western, and at hotels in tourist sites European style foods are always available. If you are travelling to remote areas and camping, such as the Omo Valley and parts of southern Ethiopia, our company provide professional cook with first class cooking materials it is also advisable to inform your interest of food during booking.
-              </p>
+          Addis Ababa now boasts of a wide variety of restaurants traditional,
+          Italian, Far East and western, and at hotels in tourist sites European
+          style foods are always available. If you are travelling to remote
+          areas and camping, such as the Omo Valley and parts of southern
+          Ethiopia, our company provide professional cook with first class
+          cooking materials it is also advisable to inform your interest of food
+          during booking.
+        </p>
+      </div>
+
+      <div className="text-center">
+        <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-16 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+          Get In Touch
+        </button>
       </div>
     </section>
   );
