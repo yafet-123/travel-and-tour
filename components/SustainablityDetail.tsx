@@ -27,8 +27,8 @@ export const SustainablityDetail: React.FC = () => {
   return (
     <section className="py-10">
         {Detail.map((data, index) => (
-          <div className="flex flex-col even:bg-white odd:bg-[#165248] even:text-[#165248] odd:text-white mb-10 ">
-            <div className="flex flex-col w-full pt-10 lg:px-52">
+          <div className="flex flex-col even:bg-white odd:bg-[#165248] even:text-[#165248] odd:text-white mb-10 py-20 px-5">
+            <div className="flex flex-col w-full lg:px-52">
               <h1 className="text-left text-3xl lg:text-4xl font-sans leading-10 font-bold mb-10">
                 {data.head}
               </h1>
