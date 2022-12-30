@@ -3,7 +3,7 @@ import heroImage from '../public/hero/hero.jpg'
 export const Hero: React.FC = () => {
   return (
     <section className="relative">
-      <div className="w-full h-[663px] w-full">
+      <div className="w-full h-[663px]">
         <Image
           src={heroImage}
           className="w-full h-[663px] brightness-50"

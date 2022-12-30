@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import navbarImage from '../public/navbar/navbarHead.png';
+import navbarImage from '../public/logo.png';
 import {
   AiFillInstagram,
   AiFillTwitterCircle,
