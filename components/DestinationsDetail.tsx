@@ -225,6 +225,8 @@ export const DestinationsDetail: React.FC = ({state}) => {
       </div>
       }
 
+      
+
       <div className="text-center mb-10">
         <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-16 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
           Get In Touch

@@ -5,7 +5,7 @@ import { DestinationsDetail } from '../components/DestinationsDetail';
 import { Footer } from '../components/Footer';
 
 export default function Destinations() {
-  const [ destinationState, setdestinationState] = useState("")
+  const [ destinationState, setdestinationState] = useState("HistoricalDetail")
   const handledestinationChange = (name) =>{
     console.log(name)
     setdestinationState(name)
@@ -14,7 +14,7 @@ export default function Destinations() {
   return (
     <div className="flex flex-col">
       <Navbar />
-      <DestinationsHero handledestinationChange={handledestinationChange} />
+      <DestinationsHero handledestinationChange={handledestinationChange} state = {destinationState}/>
       <DestinationsDetail state = {destinationState} />
       <Footer />
     </div>

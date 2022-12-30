@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import DestinationsHeroImage from '../public/Destinations/DestinationsHeroImage.jpg';
 
-export const DestinationsHero: React.FC = ({handledestinationChange}) => {
+export const DestinationsHero: React.FC = ({handledestinationChange, state}) => {
   const DestinationsButton = [
     {
       name: 'HISTORICAL ATTRACTIONS',
@@ -38,7 +38,7 @@ export const DestinationsHero: React.FC = ({handledestinationChange}) => {
               <button
                 key={data.name}
                 onClick = {(e) => handledestinationChange(data.file) }
-                className="py-3 border-4 border-white rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-white hover:text-[#94BB3C] lg:mb-16"
+                className={ state === data.file ? "py-3 border-4 border-[#94BB3C] rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-[#94BB3C] hover:text-[#94BB3C] lg:mb-16" : "py-3 border-4 border-white rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-white hover:text-[#94BB3C] lg:mb-16"}
               >
                 {data.name}
               </button>
