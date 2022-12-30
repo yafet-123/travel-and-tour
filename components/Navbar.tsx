@@ -49,23 +49,23 @@ export const Navbar: React.FC = () => {
             }`}
           >
             <ul className="items-center justify-center space-y-8 lg:flex lg:space-x-16 lg:space-y-0">
-              {NavLinks.map((data, index) => (
-                <li key={index} className="text-white">
-                  <Link href={data.path}>
-                    <h1 className="font-sans text-xl leading-6 font-bold text-white hover:text-[#94BB3C]">
-                      {data.name}
-                    </h1>
+              {NavLinks.map((link, index) => (
+                <li
+                  key={link.name}
+                  className="md:ml-6 text-sm font-medium md:my-0 my-7"
+                >
+                  <Link
+                    href={link.path}
+                    className="text-white hover:text-[#94BB3C] duration-500"
+                  >
+                    {link.name}
                   </Link>
                 </li>
               ))}
 
-              <li className="text-white">
-                <Link href="#">
-                  <h1 className="font-sans text-xl leading-6 p-2 bg-[#94BB3C] hover:bg-white font-bold text-white hover:text-[#94BB3C] w-44 lg:w-full border-[#165248] rounded-md">
-                    CONTACT
-                  </h1>
-                </Link>
-              </li>
+              <button className="bg-[white] text-[#165248] font-bold font-sans py-2 px-6 rounded md:ml-8  hover:text-[#94BB3C] duration-500">
+                CALL NOW
+              </button>
             </ul>
           </div>
         </div>
