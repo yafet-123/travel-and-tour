@@ -6,7 +6,8 @@ import { Footer } from '../components/Footer';
 
 export default function Destinations() {
   const [ destinationState, setdestinationState] = useState("")
-  const handledestinationChange = ({name}) =>{
+  const handledestinationChange = (name) =>{
+    console.log(name)
     setdestinationState(name)
   }
   console.log(destinationState)
