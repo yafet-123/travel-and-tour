@@ -116,7 +116,7 @@ export const DestinationsDetail: React.FC = () => {
   return (
     <section className="py-10">
       <div className="mx-0 lg:mx-20 ">
-        {HistoricalDetail.map((data, index) => (
+        {FestivalsDetail.map((data, index) => (
           <div className="p-20">
             
               <Image

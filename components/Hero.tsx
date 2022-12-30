@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import heroImage from '../public/hero/hero.jpg';
+import heroImage from '../public/hero/hero.jpg'
 export const Hero: React.FC = () => {
   return (
     <section className="relative">
