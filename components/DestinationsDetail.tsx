@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useState } from 'react'
 import DestinationsImageOne from '../public/Destinations/DestinationsImageOne.png';
 import DestinationsImageTwo from '../public/Destinations/DestinationsImageTwo.png';
 import DestinationsImageThree from '../public/Destinations/DestinationsImageThree.png';
@@ -14,6 +15,7 @@ import DestinationsImageTwelve from '../public/Destinations/DestinationsImageTwe
 import DestinationsImageThirteen from '../public/Destinations/DestinationsImageThirteen.png';
 
 export const DestinationsDetail: React.FC = () => {
+  const [detail, setdetail] = useState()
   const HistoricalDetail = [
     {
       head: 'Lake Tana Monasteriesrk',
@@ -106,7 +108,7 @@ export const DestinationsDetail: React.FC = () => {
     },
 
     {
-      head: 'Meskel (Finding of the true cross)',
+      head: 'Genna (Ethiopian Christmass)',
       description:
         'The Lake Tana area was important in the fourteenth, fifteenth and sixteenth centuries in view of its role in maintaining the Christian faith against contemporary pressures, and the rise of the Solomonic Dynasty which patronized the building of churches and monasteries. <br className="pb-10" /> Many of the earliest manuscripts and precious examples of ecclesiastical art as well as royal objects were safely stored in their treasuries. At the same time, new religious arts were developed and displayed in the churches. The oldest of these forty or so churches have their origins in the fourteenth century. They reflect the native building tradition in their round shape, materials and building techniques. Each one consists of three parts: the inner sanctuary, the inner ambulatory and the outer ambulatory. The outside walls of the sanctuary are usually covered with magnificent paintings. Seven of the most accessible and representative of these churches, still serving their original function, have been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret, Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola Maryam.',
       image: DestinationsImageThirteen,
