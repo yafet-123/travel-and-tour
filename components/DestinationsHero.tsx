@@ -30,7 +30,7 @@ export const DestinationsHero: React.FC = ({handledestinationChange, state}) => 
           alt="Contact"
         />
         <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 w-full lg:px-52">
-          <h1 className="text-center text-3xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
+          <h1 className="text-center text-3xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] my-16">
             Check Out Our Destinations
           </h1>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 mx-5">

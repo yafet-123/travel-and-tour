@@ -7,7 +7,7 @@ export const SustainablityHero: React.FC = () => {
       <div className="relative">
         <Image
           src={SustainablityHeroImage}
-          className="w-full h-[300px] lg:h-[479px] object-cover lg:object-fit brightness-100"
+          className="w-full h-[300px] lg:h-[479px] object-fit lg:object-fit brightness-100"
           priority
           alt="Contact"
         />

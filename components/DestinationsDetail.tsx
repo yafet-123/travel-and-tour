@@ -10,12 +10,11 @@ import DestinationsImageSeven from '../public/Destinations/DestinationsImageSeve
 import DestinationsImageEight from '../public/Destinations/DestinationsImageEight.png';
 import DestinationsImageNine from '../public/Destinations/DestinationsImageNine.png';
 import DestinationsImageTen from '../public/Destinations/DestinationsImageTen.png';
-import DestinationsImageEleven from '../public/Destinations/DestinationsImageTen.png';
+import DestinationsImageEleven from '../public/Destinations/DestinationsImageEleven.png';
 import DestinationsImageTwelve from '../public/Destinations/DestinationsImageTwelve.png';
 import DestinationsImageThirteen from '../public/Destinations/DestinationsImageThirteen.png';
 
 export const DestinationsDetail: React.FC = ({state}) => {
-
   const HistoricalDetail = [
     {
       head: 'Lake Tana Monasteriesrk',
@@ -225,7 +224,7 @@ export const DestinationsDetail: React.FC = ({state}) => {
       </div>
       }
 
-      
+
 
       <div className="text-center mb-10">
         <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-16 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
