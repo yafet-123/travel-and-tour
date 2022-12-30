@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import DestinationsHeroImage from '../public/Destinations/DestinationsHeroImage.jpg';
 
-export const DestinationsHero: React.FC = () => {
+export const DestinationsHero: React.FC = ({handledestinationChange}) => {
   const DestinationsButton = [
     {
       name: 'HISTORICAL ATTRACTIONS',
@@ -32,7 +32,8 @@ export const DestinationsHero: React.FC = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 mx-5">
             {DestinationsButton.map((data, index) => (
               <button
-                key={index}
+                key={data.name}
+                onClick = {() => handledestinationChange(data.name) }
                 className="py-3 border-4 border-white rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-white hover:text-[#94BB3C] lg:mb-16"
               >
                 {data.name}
