@@ -25,6 +25,7 @@ export const Navbar: React.FC = () => {
             <Image
               src={navbarImage}
               className="w-[100px] h-[51px]"
+              priority
               alt="Navbar"
             />
           </Link>

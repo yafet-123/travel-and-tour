@@ -5,15 +5,19 @@ export const DestinationsHero: React.FC = ({handledestinationChange}) => {
   const DestinationsButton = [
     {
       name: 'HISTORICAL ATTRACTIONS',
+      file:"HistoricalDetail"
     },
     {
       name: 'NATURAL ATTRACTIONS',
+      file:"NaturalDetail"
     },
     {
       name: 'CULTURAL ATTRACTIONS',
+      file:"CulturalDetail"
     },
     {
       name: 'FESTIVALS',
+      file:"FestivalsDetail"
     },
   ];
   return (
@@ -33,7 +37,7 @@ export const DestinationsHero: React.FC = ({handledestinationChange}) => {
             {DestinationsButton.map((data, index) => (
               <button
                 key={data.name}
-                onClick = {(e) => handledestinationChange(data.name) }
+                onClick = {(e) => handledestinationChange(data.file) }
                 className="py-3 border-4 border-white rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-white hover:text-[#94BB3C] lg:mb-16"
               >
                 {data.name}

@@ -15,7 +15,7 @@ import DestinationsImageTwelve from '../public/Destinations/DestinationsImageTwe
 import DestinationsImageThirteen from '../public/Destinations/DestinationsImageThirteen.png';
 
 export const DestinationsDetail: React.FC = ({state}) => {
-  const [detail, setdetail] = useState()
+
   const HistoricalDetail = [
     {
       head: 'Lake Tana Monasteriesrk',
@@ -115,17 +115,11 @@ export const DestinationsDetail: React.FC = ({state}) => {
     },
   ];
 
-  useEffect(()=>{
-    setdetail(HistoricalDetail)
-  },[])
-
-  if(state === "HISTORICAL ATTRACTIONS"){
-    setdetail(HistoricalDetail)
-  }
   return (
     <section className="py-10">
+      { state === "HistoricalDetail" && 
       <div className="mx-0 lg:mx-20 ">
-        {detail.map((data, index) => (
+        {HistoricalDetail.map((data, index) => (
           <div key={index} className="p-20">
             
               <Image
@@ -148,6 +142,88 @@ export const DestinationsDetail: React.FC = ({state}) => {
           </div>
         ))}
       </div>
+      }
+
+      { state === "NaturalDetail" && 
+      <div className="mx-0 lg:mx-20 ">
+        {NaturalDetail.map((data, index) => (
+          <div key={index} className="p-20">
+            
+              <Image
+                src={data.image}
+                className="w-[782px] h-[300px] object-cover brightness-75 border rounded-2xl mx-10 odd:float-right even:float-left"
+                priority
+                alt="AboutUsEthiopia"
+              />
+           
+
+            <div>
+              <h1 className="pb-10 text-left text-3xl lg:text-4xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5">
+                {data.head}
+              </h1>
+              <div
+                dangerouslySetInnerHTML={{ __html: data.description }}
+                className="text-left text-lg lg:text-xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+      }
+
+      { state === "CulturalDetail" && 
+      <div className="mx-0 lg:mx-20 ">
+        {CulturalDetail.map((data, index) => (
+          <div key={index} className="p-20">
+            
+              <Image
+                src={data.image}
+                className="w-[782px] h-[300px] object-cover brightness-75 border rounded-2xl mx-10 odd:float-right even:float-left"
+                priority
+                alt="AboutUsEthiopia"
+              />
+           
+
+            <div>
+              <h1 className="pb-10 text-left text-3xl lg:text-4xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5">
+                {data.head}
+              </h1>
+              <div
+                dangerouslySetInnerHTML={{ __html: data.description }}
+                className="text-left text-lg lg:text-xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+      }
+
+      { state === "FestivalsDetail" && 
+      <div className="mx-0 lg:mx-20 ">
+        {FestivalsDetail.map((data, index) => (
+          <div key={index} className="p-20">
+            
+              <Image
+                src={data.image}
+                className="w-[782px] h-[300px] object-cover brightness-75 border rounded-2xl mx-10 odd:float-right even:float-left"
+                priority
+                alt="AboutUsEthiopia"
+              />
+           
+
+            <div>
+              <h1 className="pb-10 text-left text-3xl lg:text-4xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5">
+                {data.head}
+              </h1>
+              <div
+                dangerouslySetInnerHTML={{ __html: data.description }}
+                className="text-left text-lg lg:text-xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+      }
 
       <div className="text-center mb-10">
         <button className="mt-10 font-sans font-extrabold text-2xl py-5 px-16 bg-[#94BB3C] hover:bg-black text-white hover:text-[#94BB3C] border-2 border-white rounded-md">

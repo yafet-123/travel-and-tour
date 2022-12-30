@@ -15,7 +15,7 @@ export default function Destinations() {
     <div className="flex flex-col">
       <Navbar />
       <DestinationsHero handledestinationChange={handledestinationChange} />
-      <DestinationsDetail state = {setdestinationState} />
+      <DestinationsDetail state = {destinationState} />
       <Footer />
     </div>
   );
