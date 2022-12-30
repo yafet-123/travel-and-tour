@@ -1,45 +1,60 @@
 import Image from 'next/image';
-import AboutOne from '../public/AboutEthiopia/AboutOne.png';
-import AboutTwo from '../public/AboutEthiopia/AboutTwo.png';
-import AboutThree from '../public/AboutEthiopia/AboutThree.png';
-import AboutFour from '../public/AboutEthiopia/AboutFour.png';
-import AboutFive from '../public/AboutEthiopia/AboutFive.jpg';
-import AboutSix from '../public/AboutEthiopia/AboutSix.png';
+import DestinationsImageOne from '../public/Destinations/DestinationsImageOne.png';
+import DestinationsImageTwo from '../public/Destinations/DestinationsImageTwo.png';
+import DestinationsImageThree from '../public/Destinations/DestinationsImageThree.png';
+import DestinationsImageFour from '../public/Destinations/DestinationsImageFour.png';
 
 export const DestinationsDetail: React.FC = () => {
   const Detail = [
     {
-      head: 'Simien Mountains National Park',
+      head: 'Lake Tana Monasteriesrk',
       description:
-        'The Lake Tana area was important in the fourteenth, fifteenth and sixteenth centuries in view of its role in maintaining the Christian faith against contemporary pressures, and the rise of the Solomonic Dynasty which patronized the building of churches and monasteries.<br className="mb-10" /> Many of the earliest manuscripts and precious examples of ecclesiastical art as well as royal objects were safely stored in their treasuries. At the same time, new religious arts were developed and displayed in the churches. The oldest of these forty or so churches have their origins in the fourteenth century. They reflect the native building tradition in their round shape, materials and building techniques. Each one consists of three parts: the inner sanctuary, the inner ambulatory and the outer ambulatory. The outside walls of the sanctuary are usually covered with magnificent paintings. Seven of the most accessible and representative of these churches, still serving their original function, have been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret, Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola Maryam.',
-      image: AboutOne,
+        'The Lake Tana area was important in the fourteenth, fifteenth and sixteenth centuries in view of its role in maintaining the Christian faith against contemporary pressures, and the rise of the Solomonic Dynasty which patronized the building of churches and monasteries.<br className="pb-20" /> Many of the earliest manuscripts and precious examples of ecclesiastical art as well as royal objects were safely stored in their treasuries. At the same time, new religious arts were developed and displayed in the churches. The oldest of these forty or so churches have their origins in the fourteenth century. They reflect the native building tradition in their round shape, materials and building techniques. Each one consists of three parts: the inner sanctuary, the inner ambulatory and the outer ambulatory. The outside walls of the sanctuary are usually covered with magnificent paintings. Seven of the most accessible and representative of these churches, still serving their original function, have been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret, Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola Maryam.',
+      image: DestinationsImageOne,
     },
-    
+
+    {
+      head: 'Fasiladas’ Palace',
+      description:
+        'It stands 32m tall and has a crenulated parapet and four domed towers. Made of roughly hewn stones, it’s reputedly the work of an Indian architect and shows an unusual synthesis of Indian, Portuguese, Moorish and Aksumite influences. The main floor was used as dining halls and a formal reception area.<br className="pb-20" /> Note the wall reliefs, including several Stars of David, which trumpet Fasiladas’ link to the Solomonic dynasty. The small room in the northern corner boasts its original beam ceiling and some faint frescoes. On the 1st floor, Fasiladas’ prayer room has windows in four directions, each overlooking Gonder’s important churches. Religious ceremonies were held on the roof, and it was from here that he addressed his people. Above Fasiladas’ 2nd-floor bedroomwas the watchtower, from where it’s (apparently) possible to see all the way to Lake Tana. Behind the castle are various ruined buildings, including the kitchen (domed ceiling), steam bath and water cistern.',
+      image: DestinationsImageTwo,
+    },
+
+    {
+      head: 'Rock Hewn churches of Lalibela',
+      description:
+        'The Lake Tana area was important in the fourteenth, fifteenth and sixteenth centuries in view of its role in maintaining the Christian faith against contemporary pressures, and the rise of the Solomonic Dynasty which patronized the building of churches and monasteries.<br className="pb-20" /> Many of the earliest manuscripts and precious examples of ecclesiastical art as well as royal objects were safely stored in their treasuries. At the same time, new religious arts were developed and displayed in the churches. The oldest of these forty or so churches have their origins in the fourteenth century. They reflect the native building tradition in their round shape, materials and building techniques. Each one consists of three parts: the inner sanctuary, the inner ambulatory and the outer ambulatory. The outside walls of the sanctuary are usually covered with magnificent paintings. Seven of the most accessible and representative of these churches, still serving their original function, have been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret, Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola Maryam.',
+      image: DestinationsImageThree,
+    },
+
+    {
+      head: 'The Obelisks of Axum',
+      description:
+        'It stands 32m tall and has a crenulated parapet and four domed towers. Made of roughly hewn stones, it’s reputedly the work of an Indian architect and shows an unusual synthesis of Indian, Portuguese, Moorish and Aksumite influences. The main floor was used as dining halls and a formal reception area. <br /> Note the wall reliefs, including several Stars of David, which trumpet Fasiladas’ link to the Solomonic dynasty. The small room in the northern corner boasts its original beam ceiling and some faint frescoes. On the 1st floor, Fasiladas’ prayer room has windows in four directions, each overlooking Gonder’s important churches. Religious ceremonies were held on the roof, and it was from here that he addressed his people. Above Fasiladas’ 2nd-floor bedroomwas the watchtower, from where it’s (apparently) possible to see all the way to Lake Tana. Behind the castle are various ruined buildings, including the kitchen (domed ceiling), steam bath and water cistern.',
+      image: DestinationsImageFour,
+    },
   ];
   return (
     <section className="py-10">
-      <div className="mx-0 lg:mx-20">
+      <div className="mx-0 lg:mx-20 ">
         {Detail.map((data, index) => (
-          <div className="mb-3 bg-[#165248]">
-            <div className="">
+          <div className="p-10">
+            <div className="float-right float-right even:float-left">
               <Image
                 src={data.image}
-                className="w-[300px] h-[300px] object-cover brightness-75 border rounded-2xl float-right mx-5"
+                className="w-[782px] h-[300px] object-cover brightness-75 border rounded-2xl ml-10"
                 priority
                 alt="AboutUsEthiopia"
               />
             </div>
 
-            
-              <h1 className="text-left text-3xl lg:text-4xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-5">
-                {data.head}
-              </h1>
-              <div 
-                dangerouslySetInnerHTML={{ __html: data.description }}
-                className="text-left text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-5"
-              />
-              
-            
+            <h1 className="pb-10 text-left text-3xl lg:text-4xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5">
+              {data.head}
+            </h1>
+            <div
+              dangerouslySetInnerHTML={{ __html: data.description }}
+              className="text-left text-lg lg:text-xl font-sans leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-5"
+            />
           </div>
         ))}
       </div>
