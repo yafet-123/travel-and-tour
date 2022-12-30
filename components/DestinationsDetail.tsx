@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import DestinationsImageOne from '../public/Destinations/DestinationsImageOne.png';
 import DestinationsImageTwo from '../public/Destinations/DestinationsImageTwo.png';
 import DestinationsImageThree from '../public/Destinations/DestinationsImageThree.png';
@@ -14,7 +14,7 @@ import DestinationsImageEleven from '../public/Destinations/DestinationsImageTen
 import DestinationsImageTwelve from '../public/Destinations/DestinationsImageTwelve.png';
 import DestinationsImageThirteen from '../public/Destinations/DestinationsImageThirteen.png';
 
-export const DestinationsDetail: React.FC = () => {
+export const DestinationsDetail: React.FC = ({state}) => {
   const [detail, setdetail] = useState()
   const HistoricalDetail = [
     {
@@ -115,10 +115,17 @@ export const DestinationsDetail: React.FC = () => {
     },
   ];
 
+  useEffect(()=>{
+    setdetail(HistoricalDetail)
+  },[])
+
+  if(state === "HISTORICAL ATTRACTIONS"){
+    setdetail(HistoricalDetail)
+  }
   return (
     <section className="py-10">
       <div className="mx-0 lg:mx-20 ">
-        {FestivalsDetail.map((data, index) => (
+        {detail.map((data, index) => (
           <div key={index} className="p-20">
             
               <Image
