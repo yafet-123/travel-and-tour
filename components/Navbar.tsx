@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
               {NavLinks.map((link, index) => (
                 <li
                   key={link.name}
-                  className="md:ml-6 text-sm font-medium md:my-0 my-7"
+                  className="md:ml-6 text-lg font-medium md:my-0 my-7"
                 >
                   <Link
                     href={link.path}
