@@ -26,11 +26,9 @@ export const Herotours: React.FC = () => {
         return (
           <div
             key={index}
-            className={`${card.id} bg-cover bg-blend-darken justify-between 
-                        sm:h-96 flex flex-col place-items-center text-center 
-                        border-secondaryColor border-4 md:h-96 py-3`}
+            className={`${card.id} bg-cover bg-blend-darken w-full lg:w-[600px] h-[290px] flex flex-col items-center justify-between py-5 lg:py-10 text-center border-secondaryColor border-4 md:h-96 py-3`}
           > 
-          <div> <h3 className="text-3xl font-bold font-monospace ">{card.name}</h3></div>
+          <div> <h3 className="text-2xl lg:text-3xl font-bold font-monospace ">{card.name}</h3></div>
          
           <div className='flex flex-col w-3/4 items-center gap-4 '>
             <p className="text-md  text-white">{card.description}</p>
