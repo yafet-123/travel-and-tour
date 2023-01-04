@@ -1,40 +1,45 @@
 import Image from 'next/image';
-import heroImage from '../public/hero/hero.jpg';
 
+import { BiBusSchool } from 'react-icons/bi'
+import { AiOutlineStar } from 'react-icons/ai'
+import { FcOnlineSupport } from 'react-icons/fc'
+import { BsPersonBoundingBox } from 'react-icons/bs'
+import { FaHotel } from 'react-icons/fa'
+import { MdPriceCheck } from 'react-icons/md'
 export const OurServices: React.FC = () => {
   const ServicesArray = [
     {
-      icon: heroImage,
+      icon: <BiBusSchool size={30} />,
       name: 'Wide Variety of Tours',
       description:
         'We offer a wide variety of personally picked tours with destinations all over Ethiopia.',
     },
     {
-      icon: heroImage,
+      icon: <AiOutlineStar size={30} />,
       name: 'Highly Qualified Service',
       description:
         'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
     },
     {
-      icon: heroImage,
+      icon: <FcOnlineSupport size={30} />,
       name: '24/7 Support',
       description:
         'You can always get professional support from our staff 24/7 and ask any question you have.',
     },
     {
-      icon: heroImage,
+      icon: <BsPersonBoundingBox size={30} />,
       name: 'Personalized Matching',
       description:
         'We offer a wide variety of personally picked tours with destinations all over Ethiopia.',
     },
     {
-      icon: heroImage,
+      icon: <FaHotel size={30} />,
       name: 'Handpicked Hotels',
       description:
         'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
     },
     {
-      icon: heroImage,
+      icon: <AiOutlineStar size={30} />,
       name: 'Best Price Guarantee',
       description:
         'You can always get professional support from our staff 24/7 and ask any question you have.',
