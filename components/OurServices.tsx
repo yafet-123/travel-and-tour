@@ -39,7 +39,7 @@ export const OurServices: React.FC = () => {
         'Our tour managers are qualified, skilled, and friendly to bring you the best service.',
     },
     {
-      icon: <AiOutlineStar size={30} />,
+      icon: <MdPriceCheck size={30} />,
       name: 'Best Price Guarantee',
       description:
         'You can always get professional support from our staff 24/7 and ask any question you have.',
@@ -61,12 +61,7 @@ export const OurServices: React.FC = () => {
               {data.name}
             </h1>
 
-            <Image
-              src={data.icon}
-              className="w-[95.83px] h-[66.5px] brightness-50 object-cover box-border pl-3 pb-3"
-              priority
-              alt="Navbar"
-            />
+            <span className="text-yellow-500 text-3xl">{data.icon}</span>
 
             <p className="w-full text-center text-sm lg:text-xl lg:px-10 font-sans text-white hover:text-[#94BB3C]">
               {data.description}
