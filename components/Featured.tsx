@@ -2,7 +2,7 @@ import featureImageOne from '../public/feature/featureImageOne.jpg';
 import featureImageTwo from '../public/feature/featureImagetwo.jpg';
 import Image from 'next/image';
 export const Featured: React.FC = () => {
-  const FieldTour = [
+  const FeaturedTour = [
     {
       image: featureImageOne,
       name: 'Omo Valley Tribes',
@@ -35,24 +35,18 @@ export const Featured: React.FC = () => {
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-28 px-10">
-        {FieldTour.map((data, index) => (
+        {FeaturedTour.map((data, index) => (
           <div
             key={index}
-            className="w-full lg:w-[600px] h-full lg:h-[290px] bg-green-300 relative "
+            className="w-full lg:w-[600px] h-full lg:h-[290px] flex flex-col items-center justify-center"
           >
-            <Image
-              src={data.image}
-              className="w-full lg:w-[600px] h-[290px] brightness-50 object-cover box-border"
-              priority
-              alt="Navbar"
-            />
-            <h3 className="absolute top-5 w-full text-xl lg:text-3xl text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C] ">
+            <h3 className="w-full text-xl lg:text-3xl text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C] ">
               {data.name}
             </h3>
-            <p className="absolute px-5 top-16 w-full text-lg text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C]">
+            <p className="w-full text-lg text-center font-sans leading-8 font-bold text-white hover:text-[#94BB3C]">
               {data.description}
             </p>
-            <button className="absolute left-1/2 -translate-x-1/2 bottom-5 font-sans font-extrabold text-center text-xl py-2 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+            <button className="left-1/2 -translate-x-1/2 bottom-5 font-sans font-extrabold text-center text-xl py-2 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
               Read More
             </button>
           </div>
