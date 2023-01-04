@@ -2,14 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.project-one-background {
-  background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+.hero-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/Ethiopia-Simien-Mountains.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-.project-two-background {
-  background-image: url('https://images.unsplash.com/photo-1512568400610-62da28bc8a13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+.historical {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/lalibela.jpg');
+
 }
 
-.project-three-background {
-  background-image: url('https://images.unsplash.com/photo-1530592126211-8294b41580ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80');
+.adventure {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/adventurexpedtionsimage.JPG');
+  
+}
+.trekking {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg');
+
 }
