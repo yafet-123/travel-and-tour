@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import heroImage from '../public/hero/hero.jpg'
+
 export const Hero: React.FC = () => {
   return (
     <div className=" flex justify-center place-items-center h-screen bg-scroll  hero-background">

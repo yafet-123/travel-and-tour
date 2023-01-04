@@ -1,27 +1,19 @@
-import Image from 'next/image';
-import contactImageOne from '../public/hero/contactImage.jpg';
 
 export const HeroContact: React.FC = () => {
   return (
-    <section className="relative">
-      <div className="w-full h-[663px] w-full">
-        <Image
-          src={contactImageOne}
-          className="w-full h-[700px] object-cover brightness-50"
-          priority
-          alt="Contact"
-        />
-        <div className="absolute top-10 flex flex-col justify-between left-0 right-0 m-auto w-full lg:w-[40%]">
-          <h1 className="text-center text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
+    <div className=" flex justify-center place-items-center h-[638px] bg-scroll  hero-background">
+      <div className="flex flex-col gap-8  font-bold h-1/2  text-center ">
+        <div>
+          <h1 className="text-white text-3xl md:text-6xl  m-4">
             WE LOVE TO HEAR FROM YOU
           </h1>
-          <p className="text-center text-3xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit laborum. sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit laborum.
-          </p>
+        </div>
+        <div>
+          <h1 className="text-white  text-xl lg:text-3xl m-4">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum. sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.
+          </h1>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
