@@ -60,12 +60,12 @@ export const ToursDestination: React.FC = () => {
     },
   ];
   return (
-    <section className="mx-0 lg:mx-20 py-10">
+    <section className="py-10">
       <div className="flex flex-col my-10">
         {FieldTour.map((data, index) => (
           <div
             key={index}
-            className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 even:bg-[#165248] text-[#165248] even:text-white px-10 py-20 border-transparent rounded-lg"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 even:bg-[#165248] text-[#165248] even:text-white px-10 lg:px-20 py-20 border-transparent rounded-lg"
           >
             <Image
               src={data.image}
@@ -75,10 +75,10 @@ export const ToursDestination: React.FC = () => {
             />
 
             <div className="flex flex-col justify-between my-5 lg:my-10">
-              <h3 className="w-full text-xl lg:text-4xl text-center lg:text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
+              <h3 className="w-full text-2xl lg:text-4xl text-center lg:text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
                 {data.name}
               </h3>
-              <p className="w-full lg:w-3/4 text-sm lg:text-xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
+              <p className="w-full lg:w-3/4 text-md lg:text-xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
                 {data.description}
               </p>
               <div className="text-center lg:text-left">

@@ -3,21 +3,25 @@ import TourHeroImage from '../public/tour/TourHeroImage.jpg';
 
 export const ToursHero: React.FC = () => {
   return (
-    <div className=" flex justify-center place-items-center h-[523px] bg-scroll  hero-background">
-      <div className="flex flex-col gap-8  font-bold h-1/2 text-center ">
-        <div>
-          <h1 className="text-white text-3xl md:text-6xl  m-4">
-            <span className="font-normal">Create</span> Your Tour
+    <section className="w-full h-[523px]">
+      <div className="relative">
+        <Image
+          src={TourHeroImage}
+          className="w-full h-[523px] object-cover brightness-75"
+          priority
+          alt="Contact"
+        />
+        <div className="absolute top-32 flex flex-col justify-between left-0 right-0 m-auto w-full lg:w-[40%]">
+          <h1 className="text-center text-3xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
+            Create Your Tour
           </h1>
-        </div>
-        <div>
-          <h1 className="text-white  text-xl lg:text-3xl m-4">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum. sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum.
-          </h1>
+          <p className="mx-5 text-center text-xl md:text-2xl lg:text-3xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit laborum. sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit laborum.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
-
- 
