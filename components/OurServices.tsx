@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-import { BiBusSchool } from 'react-icons/bi'
-import { AiOutlineStar } from 'react-icons/ai'
-import { FcOnlineSupport } from 'react-icons/fc'
-import { BsPersonBoundingBox } from 'react-icons/bs'
-import { FaHotel } from 'react-icons/fa'
-import { MdPriceCheck } from 'react-icons/md'
+import { BiBusSchool } from 'react-icons/bi';
+import { AiOutlineStar } from 'react-icons/ai';
+import { FcOnlineSupport } from 'react-icons/fc';
+import { BsPersonBoundingBox } from 'react-icons/bs';
+import { FaHotel } from 'react-icons/fa';
+import { MdPriceCheck } from 'react-icons/md';
 export const OurServices: React.FC = () => {
   const ServicesArray = [
     {

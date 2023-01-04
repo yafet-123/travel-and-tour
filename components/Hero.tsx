@@ -1,4 +1,3 @@
-
 export const Hero: React.FC = () => {
   return (
     <div className=" flex justify-center place-items-center h-screen bg-scroll  hero-background">

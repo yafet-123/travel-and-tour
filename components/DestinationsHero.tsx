@@ -1,23 +1,26 @@
 import Image from 'next/image';
 import DestinationsHeroImage from '../public/Destinations/DestinationsHeroImage.jpg';
 
-export const DestinationsHero: React.FC = ({handledestinationChange, state}) => {
+export const DestinationsHero: React.FC = ({
+  handledestinationChange,
+  state,
+}) => {
   const DestinationsButton = [
     {
       name: 'HISTORICAL ATTRACTIONS',
-      file:"HistoricalDetail"
+      file: 'HistoricalDetail',
     },
     {
       name: 'NATURAL ATTRACTIONS',
-      file:"NaturalDetail"
+      file: 'NaturalDetail',
     },
     {
       name: 'CULTURAL ATTRACTIONS',
-      file:"CulturalDetail"
+      file: 'CulturalDetail',
     },
     {
       name: 'FESTIVALS',
-      file:"FestivalsDetail"
+      file: 'FestivalsDetail',
     },
   ];
   return (
@@ -37,8 +40,12 @@ export const DestinationsHero: React.FC = ({handledestinationChange, state}) => 
             {DestinationsButton.map((data, index) => (
               <button
                 key={data.name}
-                onClick = {(e) => handledestinationChange(data.file) }
-                className={ state === data.file ? "py-3 border-4 border-[#94BB3C] rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-[#94BB3C] hover:text-[#94BB3C] lg:mb-16" : "py-3 border-4 border-white rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-white hover:text-[#94BB3C] lg:mb-16"}
+                onClick={(e) => handledestinationChange(data.file)}
+                className={
+                  state === data.file
+                    ? 'py-3 border-4 border-[#94BB3C] rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-[#94BB3C] hover:text-[#94BB3C] lg:mb-16'
+                    : 'py-3 border-4 border-white rounded-xl text-center text-lg lg:text-2xl font-sans font-bold text-white hover:text-[#94BB3C] lg:mb-16'
+                }
               >
                 {data.name}
               </button>
