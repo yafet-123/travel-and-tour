@@ -27,7 +27,10 @@ export const ContactList: React.FC = () => {
             className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-20 px-5"
             key={index}
           >
-            <span className="text-white text-4xl lg:text-7xl mb-5"> {data.icon} </span>
+            <span className="text-white text-4xl lg:text-7xl mb-5">
+              {' '}
+              {data.icon}{' '}
+            </span>
             <h1 className="w-full text-center text-2xl lg:text-3xl font-sans leading-5 lg:leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
               {data.name}
             </h1>
@@ -36,8 +39,6 @@ export const ContactList: React.FC = () => {
               dangerouslySetInnerHTML={{ __html: data.description }}
               className="text-center text-md lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-5"
             />
-
-            
           </div>
         ))}
       </div>
