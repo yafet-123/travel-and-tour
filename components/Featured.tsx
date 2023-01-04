@@ -43,7 +43,7 @@ export const Featured: React.FC = () => {
             <h3 className="w-full text-lg lg:text-3xl font-sans lg:leading-8 font-bold text-white hover:text-[#94BB3C] ">
               {data.name}
             </h3>
-            <p className="w-full text-md font-sans leading-8  text-white hover:text-[#94BB3C]">
+            <p className="w-full text-md lg:text-2xl font-sans leading-8  text-white hover:text-[#94BB3C]">
               {data.description}
             </p>
             <button className="bottom-5 font-sans font-extrabold text-xl py-2 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">

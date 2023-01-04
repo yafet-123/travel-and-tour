@@ -46,10 +46,10 @@ export const OurServices: React.FC = () => {
         OUR SERVICES
       </h1>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 px-5 lg:px-20 my-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-10 px-2 lg:px-20 my-20">
         {ServicesArray.map((data, index) => (
           <div
-            className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-20 px-2"
+            className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-10 px-2"
             key={index}
           >
             <h1 className="w-full text-center text-lg lg:text-3xl font-sans leading-5 lg:leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
@@ -63,7 +63,7 @@ export const OurServices: React.FC = () => {
               alt="Navbar"
             />
 
-            <p className="w-full text-center text-sm lg:text-xl lg:px-10 font-sans font-bold text-white hover:text-[#94BB3C]">
+            <p className="w-full text-center text-sm lg:text-xl lg:px-10 font-sans text-white hover:text-[#94BB3C]">
               {data.description}
             </p>
           </div>
