@@ -1,11 +1,11 @@
-import TourOne from '../public/tour/TourOne.jpg';
-import TourTwo from '../public/tour/TourTwo.jpg';
-import TourThree from '../public/tour/TourThree.jpg';
-import TourFour from '../public/tour/TourFour.jpg';
-import TourFive from '../public/tour/TourFive.jpg';
-import TourSix from '../public/tour/TourSix.jpg';
-import TourSeven from '../public/tour/TourSeven.jpg';
-import TourEight from '../public/tour/TourEight.jpg';
+import TourOne from '../public/adventurexpedtionsimage.JPG';
+import TourTwo from '../public/Intrepid Travel-Ethiopia_Lalibela_Pilgrim-outside-Bete-Golgota-Selassié-Church-1.jpg';
+import TourThree from '../public/Travel to Omo Valley Tribes Children.jpg';
+import TourFour from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
+import TourFive from '../public/danakil-hero.jpg';
+import TourSix from '../public/fasiledes.jpg';
+import TourSeven from '../public/Attractions-naturall-endemic-mammals-wolf-overland-ethiopia-tour.jpg';
+import TourEight from '../public/entoto.jpg';
 import Image from 'next/image';
 
 export const ToursDestination: React.FC = () => {
@@ -69,7 +69,7 @@ export const ToursDestination: React.FC = () => {
           >
             <Image
               src={data.image}
-              className="w-full lg:w-[600px] h-[300px] lg:h-[423px] object-cover lg:object-fit box-border border-transparent rounded-xl"
+              className="w-full lg:w-[600px] h-[300px] lg:h-[423px] object-cover lg:object-fit box-border border-transparent rounded-xl hover:scale-110 transition duration-500"
               priority
               alt="Navbar"
             />
@@ -78,11 +78,11 @@ export const ToursDestination: React.FC = () => {
               <h3 className="w-full text-2xl lg:text-4xl text-center lg:text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
                 {data.name}
               </h3>
-              <p className="w-full lg:w-3/4 text-lg lg:text-2xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
+              <p className="w-full lg:w-3/4 text-md lg:text-xl text-left font-sans leading-8 hover:text-[#94BB3C]">
                 {data.description}
               </p>
               <div className="text-center lg:text-left">
-                <button className="mt-10 w-52 font-sans text-center font-extrabold text-xl py-3 px-5 bg-[#94BB3C] hover:bg-white text-white hover:text-[#94BB3C] border-2 border-white rounded-md">
+                <button className="mt-10 w-52 font-sans text-center font-extrabold text-xl py-3 px-5 bg-[#94BB3C] hover:bg-primaryColor text-white hover:text-[#94BB3C] border-2 border-white rounded-md hover:scale-110 transition duration-500">
                   Buy Tour
                 </button>
               </div>
