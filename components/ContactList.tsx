@@ -21,13 +21,13 @@ export const ContactList: React.FC = () => {
   ];
   return (
     <section className="h-full w-full bg-white my-10">
-      <div className="flex flex-col lg:flex-row justify-around items-center mx-20 my-20">
+      <div className="flex flex-col lg:flex-row justify-around items-center my-20 mx-10 lg:mx-20">
         {contactImage.map((data, index) => (
           <div
-            className="w-[388px] h-[380px] bg-[#165248] flex flex-col justify-around items-center py-20 my-10 px-5"
+            className="w-full lg:w-[388px] h-full lg:h-[380px] bg-[#165248] flex flex-col justify-around items-center py-5 my-10 px-5"
             key={index}
           >
-            <span className="text-white text-4xl lg:text-7xl mb-5">
+            <span className="text-white text-4xl lg:text-7xl mb-10">
               {' '}
               {data.icon}{' '}
             </span>

@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import TourHeroImage from '../public/tour/TourHeroImage.jpg';
+import ContactHeroImage from '../public/entoto.jpg';
 
 export const HeroContact: React.FC = () => {
   return (
     <section className="w-full h-[600px]">
       <div className="relative">
         <Image
-          src={TourHeroImage}
-          className="w-full h-[600px] object-fill brightness-50"
+          src={ContactHeroImage}
+          className="w-full h-[600px] object-cover lg:object-fill brightness-50"
           priority
           alt="Contact"
         />
