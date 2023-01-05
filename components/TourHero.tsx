@@ -3,7 +3,7 @@ import { MdEmojiTransportation } from 'react-icons/md';
 import { GiDuration } from 'react-icons/gi';
 import { BiGroup } from 'react-icons/bi';
 import { AiFillMacCommand } from 'react-icons/ai';
-import TourOne from '../public/tour/TourOne.jpg';
+import TourHeroImage from '../public/adventurexpedtionsimage.JPG';
 
 export const TourHero: React.FC = () => {
   const ToursGuide = [
@@ -32,7 +32,7 @@ export const TourHero: React.FC = () => {
     <section className="w-full h-full lg:h-[700px] mb-10">
       <div className="relative">
         <Image
-          src={TourOne}
+          src={TourHeroImage}
           className="w-full h-[800px] lg:h-[700px] object-cover lg:object-fit brightness-75"
           priority
           alt="Contact"

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import AboutUsHeroImage from '../public/aboutus/AboutUsHero.jpg';
+import AboutUsHeroImage from '../public/Attractions-naturall-endemic-mammals-MOUNTAIN-NYALA-overland-ethiopia-tour.jpg';
 
 export const TourAbout: React.FC = () => {
   const Included = [
