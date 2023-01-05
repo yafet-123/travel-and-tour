@@ -51,7 +51,7 @@ export const TourAbout: React.FC = () => {
 
   return (
     <section className="w-full h-full my-10">
-      <div className="bg-[#165248] px-5 lg:px-52 py-20 mb-20">
+      <div className="bg-[#165248] px-5 lg:px-20 py-20 mb-20">
         <h1 className="text-center lg:text-left text-3xl lg:text-4xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
           About the Tour
         </h1>

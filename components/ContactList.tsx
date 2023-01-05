@@ -21,10 +21,10 @@ export const ContactList: React.FC = () => {
   ];
   return (
     <section className="h-full w-full bg-white my-10">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-10 px-5 lg:px-20 my-20">
+      <div className="flex flex-col lg:flex-row justify-around items-center mx-20 my-20">
         {contactImage.map((data, index) => (
           <div
-            className="w-full h-[380px] bg-[#165248] flex flex-col justify-between items-center py-20 px-5"
+            className="w-[388px] h-[380px] bg-[#165248] flex flex-col justify-around items-center py-20 my-10 px-5"
             key={index}
           >
             <span className="text-white text-4xl lg:text-7xl mb-5">
@@ -47,7 +47,7 @@ export const ContactList: React.FC = () => {
         <h1 className="w-full text-center text-2xl lg:text-5xl font-sans leading-5 lg:leading-10 font-bold text-[#165248] hover:text-[#94BB3C] mb-10">
           Contact Us
         </h1>
-        <p className="px-5 text-center text-lg lg:text-2xl font-sans leading-10 text-[#165248] hover:text-[#94BB3C] mb-10">
+        <p className="px-5 text-center text-xl lg:text-2xl font-sans leading-10 text-[#165248] hover:text-[#94BB3C] mb-10">
           Our team of experts are ready to help you with any questions about a
           trip to Ethiopia. Call us now to start your journey.
         </p>

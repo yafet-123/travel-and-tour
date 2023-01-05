@@ -1,20 +1,27 @@
+import Image from 'next/image';
+import TourHeroImage from '../public/tour/TourHeroImage.jpg';
+
 export const HeroContact: React.FC = () => {
   return (
-    <div className=" flex justify-center place-items-center h-[638px] bg-scroll hero-background">
-      <div className="flex flex-col gap-8  font-bold h-1/2  text-center ">
-        <div>
-          <h1 className="text-white text-3xl md:text-6xl  m-4">
-            WE LOVE TO HEAR FROM YOU
+    <section className="w-full h-[600px]">
+      <div className="relative">
+        <Image
+          src={TourHeroImage}
+          className="w-full h-[600px] object-fill brightness-50"
+          priority
+          alt="Contact"
+        />
+        <div className="absolute top-32 flex flex-col justify-between left-0 right-0 m-auto w-full lg:w-[40%]">
+          <h1 className="text-center text-3xl lg:text-5xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
+            Create Your Tour
           </h1>
-        </div>
-        <div className="mx-auto lg:w-3/4">
-          <h1 className="text-white text-xl lg:text-3xl m-4">
+          <p className="mx-5 text-center text-xl md:text-2xl lg:text-3xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-10">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit laborum. sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit laborum.
-          </h1>
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
