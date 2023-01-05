@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import TourHeroImage from '../public/tour/TourHeroImage.jpg';
+import TourHeroImage from '../public/entoto hiking.jpg';
 
 export const ToursHero: React.FC = () => {
   return (
