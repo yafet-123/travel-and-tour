@@ -78,7 +78,7 @@ export const ToursDestination: React.FC = () => {
               <h3 className="w-full text-2xl lg:text-4xl text-center lg:text-left font-sans leading-8 font-bold hover:text-[#94BB3C] mb-10 lg:mb-0">
                 {data.name}
               </h3>
-              <p className="w-full lg:w-3/4 text-md lg:text-xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
+              <p className="w-full lg:w-3/4 text-lg lg:text-2xl text-left font-sans leading-8 font-bold hover:text-[#94BB3C]">
                 {data.description}
               </p>
               <div className="text-center lg:text-left">

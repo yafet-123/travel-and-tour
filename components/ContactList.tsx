@@ -24,7 +24,7 @@ export const ContactList: React.FC = () => {
       <div className="flex flex-col lg:flex-row justify-around items-center my-20 mx-10 lg:mx-20">
         {contactImage.map((data, index) => (
           <div
-            className="w-full lg:w-[388px] h-full lg:h-[380px] bg-[#165248] flex flex-col justify-around items-center py-5 my-10 px-5"
+            className="w-full lg:w-[388px] h-full lg:h-[380px] bg-[#165248] flex flex-col justify-around items-center py-5 my-10 px-5 hover:bg-emerald-700 hover:scale-110 transition duration-500"
             key={index}
           >
             <span className="text-white text-4xl lg:text-7xl mb-10">
