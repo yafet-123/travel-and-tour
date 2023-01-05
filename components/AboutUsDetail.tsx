@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import AboutUsHeroImageOne from '../public/aboutus/AboutUsHeroImageOne.jpg';
-import AboutUsHeroImageTwo from '../public/aboutus/AboutUsHeroImageTwo.jpg';
-import AboutUsHeroImageThree from '../public/aboutus/AboutUsHeroImageThree.jpg';
+import EcoTravelAboutImageOne from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
+import EcoTravelAboutImageTwo from '../public/fasiledes.jpg';
+import EcoTravelAboutImageThree from '../public/Simien-Mountains-landscapes.jpeg';
 
 export const AboutUsDetail: React.FC = () => {
   return (
@@ -20,22 +20,22 @@ export const AboutUsDetail: React.FC = () => {
 
         <div className="flex flex-col justify-between">
           <Image
-            src={AboutUsHeroImageOne}
-            className="w-full h-[194px] object-cover brightness-75 border rounded-2xl"
+            src={EcoTravelAboutImageOne}
+            className="w-full h-[194px] object-cover brightness-75 border rounded-2xl  hover:scale-110 transition duration-500"
             priority
             alt="AboutUs"
           />
 
           <div className="flex justify-between items-center mt-10">
             <Image
-              src={AboutUsHeroImageTwo}
-              className="w-[45%] h-[150px] lg:h-[223px] object-cover brightness-75 border rounded-2xl mr-[5%]"
+              src={EcoTravelAboutImageTwo}
+              className="w-[45%] h-[150px] lg:h-[223px] object-cover brightness-75 border rounded-2xl mr-[5%] hover:scale-110 transition duration-500"
               priority
               alt="AboutUs"
             />
             <Image
-              src={AboutUsHeroImageThree}
-              className="w-[45%] h-[150px] lg:h-[223px] object-cover brightness-75 border rounded-2xl ml-[5%]"
+              src={EcoTravelAboutImageThree}
+              className="w-[45%] h-[150px] lg:h-[223px] object-cover brightness-75 border rounded-2xl ml-[5%] hover:scale-110 transition duration-500"
               priority
               alt="AboutUs"
             />

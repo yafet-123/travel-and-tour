@@ -1,8 +1,3 @@
-import Image from 'next/image';
-import AboutUsHeroImageOne from '../public/aboutus/AboutUsHeroImageOne.jpg';
-import AboutUsHeroImageTwo from '../public/aboutus/AboutUsHeroImageTwo.jpg';
-import AboutUsHeroImageThree from '../public/aboutus/AboutUsHeroImageThree.jpg';
-
 export const FollowingTheDream: React.FC = () => {
   const Dream = [
     {
@@ -27,12 +22,12 @@ export const FollowingTheDream: React.FC = () => {
         {Dream.map((data, index) => (
           <div
             key={index}
-            className="bg-white w-full h-[199px] border rounded-3xl flex flex-col justify-around"
+            className="bg-white w-full h-[199px] border rounded-3xl flex flex-col justify-around group hover:bg-secondaryColor hover:scale-110 transition duration-500"
           >
-            <h1 className="text-center text-4xl lg:text-5xl font-sans leading-10 font-black text-[#165248] hover:text-[#94BB3C]">
+            <h1 className="text-center text-4xl lg:text-5xl font-sans leading-10 font-black text-[#165248] group-hover:text-white">
               {data.number}
             </h1>
-            <h4 className="text-center text-2xl lg:text-3xl font-sans leading-10 font-medium text-[#165248] hover:text-[#94BB3C]">
+            <h4 className="text-center text-2xl lg:text-3xl font-sans leading-10 font-medium text-[#165248] group-hover:text-white">
               {data.name}
             </h4>
           </div>
