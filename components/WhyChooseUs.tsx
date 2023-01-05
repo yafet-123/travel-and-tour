@@ -16,7 +16,7 @@ export const WhyChooseUs: React.FC = () => {
           </p>
         </div>
         <div className="h-full lg:h-[548px] bg-white lg:bg-[#94BB3C] lg:-mt-24 sm:h-2/4">
-           <Image
+          <Image
             src={heroImageOne}
             className=" h-full lg:h-[548px] brightness-50 object-cover box-border pl-0 lg:pl-3 lg:pb-3"
             priority

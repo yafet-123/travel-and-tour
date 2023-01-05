@@ -3,11 +3,11 @@ import TourHeroImage from '../public/tour/TourHeroImage.jpg';
 
 export const ToursHero: React.FC = () => {
   return (
-    <section className="w-full h-[523px]">
+    <section className="w-full h-[600px]">
       <div className="relative">
         <Image
           src={TourHeroImage}
-          className="w-full h-[523px] object-cover brightness-75"
+          className="w-full h-[600px] object-cover lg:object-fill brightness-75"
           priority
           alt="Contact"
         />

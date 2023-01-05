@@ -61,11 +61,11 @@ export const ToursDestination: React.FC = () => {
   ];
   return (
     <section className="py-10">
-      <div className="flex flex-col my-10">
+      <div className="flex flex-col my-5">
         {FieldTour.map((data, index) => (
           <div
             key={index}
-            className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 even:bg-[#165248] text-[#165248] even:text-white px-10 lg:px-20 py-20 border-transparent rounded-lg"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-5 even:bg-[#165248] text-[#165248] even:text-white px-5 lg:px-10 lg:px-20 py-5 lg:py-10 border-transparent rounded-lg"
           >
             <Image
               src={data.image}
