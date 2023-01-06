@@ -1,28 +1,22 @@
-import featureImageOne from '../public/feature/featureImageOne.jpg';
-import featureImageTwo from '../public/feature/featureImagetwo.jpg';
-import Image from 'next/image';
+
 export const Featured: React.FC = () => {
   const FeaturedTour = [
     {
-      image: featureImageOne,
       name: 'Omo Valley Tribes',
       description:
         'Transportation: Drive and flight Duration: 7 Days/ 6 Nights Accommodation: Hotels and Lodge',
     },
     {
-      image: featureImageTwo,
       name: 'Ethiopian History and Nature',
       description:
         'Transportation: Flight and Drive Duration: 14 Days/ 13 Nights Accommodation: Lodges, Hotel, and Resorts',
     },
     {
-      image: featureImageTwo,
       name: 'Ethiopian History and Nature',
       description:
         'Transportation: Flight and Drive Duration: 14 Days/ 13 Nights Accommodation: Lodges, Hotel, and Resorts ',
     },
     {
-      image: featureImageOne,
       name: 'Omo Valley Tribes',
       description:
         'Transportation: Flight and Drive Duration: 14 Days/ 13 Nights Accommodation: Lodges, Hotel, and Resorts ',
