@@ -1,19 +1,18 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import DestinationsImageOne from '../public/Destinations/DestinationsImageOne.png';
-import DestinationsImageTwo from '../public/Destinations/DestinationsImageTwo.png';
-import DestinationsImageThree from '../public/Destinations/DestinationsImageThree.png';
-import DestinationsImageFour from '../public/Destinations/DestinationsImageFour.png';
-import DestinationsImageFive from '../public/Destinations/DestinationsImageFive.png';
-import DestinationsImageSix from '../public/Destinations/DestinationsImageSix.png';
-import DestinationsImageSeven from '../public/Destinations/DestinationsImageSeven.png';
-import DestinationsImageEight from '../public/Destinations/DestinationsImageEight.png';
-import DestinationsImageNine from '../public/Destinations/DestinationsImageNine.png';
-import DestinationsImageTen from '../public/Destinations/DestinationsImageTen.png';
-import DestinationsImageEleven from '../public/Destinations/timket.png';
-import DestinationsImageTwelve from '../public/Destinations/DestinationsImageTwelve.png';
-import DestinationsImageThirteen from '../public/Destinations/DestinationsImageThirteen.png';
-
+import DestinationsImageOne from '../public/2.png';
+import DestinationsImageTwo from '../public/2.png';
+import DestinationsImageThree from '../public/2.png';
+import DestinationsImageFour from '../public/2.png';
+import DestinationsImageFive from '../public/2.png';
+import DestinationsImageSix from '../public/2.png';
+import DestinationsImageSeven from '../public/2.png';
+import DestinationsImageEight from '../public/2.png';
+import DestinationsImageNine from '../public/2.png';
+import DestinationsImageTen from '../public/2.png';
+import DestinationsImageEleven from '../public/timket.png';
+import DestinationsImageTwelve from '../public/2.png';
+import DestinationsImageThirteen from '../public/2.png';
 export const DestinationsDetail: React.FC = ({ state }) => {
   const HistoricalDetail = [
     {
