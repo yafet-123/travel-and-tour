@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import AboutEthiopiaHeroImage from '../public/2.png';
+import AboutEthiopiaHeroImage from '../public/2.jpg';
 
 export const AboutEthiopiaHero: React.FC = () => {
   return (
