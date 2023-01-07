@@ -62,7 +62,7 @@ export const AboutEthiopiaDetail: React.FC = () => {
             <div className="w-full lg:w-1/2 lg:px-10 p-5 lg:p-0 my-auto">
               <Image
                 src={data.image}
-                className="w-full h-[300px] object-fit brightness-75 border rounded-2xl"
+                className="w-full h-[300px] object-fit brightness-75 border rounded-2xl hover:scale-110 transition duration-500"
                 priority
                 alt="AboutUsEthiopia"
               />
