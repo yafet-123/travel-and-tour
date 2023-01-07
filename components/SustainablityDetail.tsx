@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import SustainablityImageOne from '../public/Sustainablity/SustainablityImageOne.jpg';
-import SustainablityImageTwo from '../public/Sustainablity/SustainablityImageTwo.jpg';
-import SustainablityImageThree from '../public/Sustainablity/SustainablityImageThree.jpg';
+import GreenWorld from '../public/CT-FW-Green-World.jpg';
+import UrbanFarming from '../public/addis ababa urban farming.jpeg';
+import EnvironmentallyFriendly from '../public/What-is-Being-Environmentally-Friendly.jpg';
 
 export const SustainablityDetail: React.FC = () => {
   const Detail = [
@@ -9,19 +9,19 @@ export const SustainablityDetail: React.FC = () => {
       head: 'RESPONSIBLE TRAVEL',
       description:
         'Our company was founded to offer environmentally-friendly tours. It’s a commitment that is reflected in our name: Ecotravel. We strive to travel responsibly by making environmentally-friendly choices and carbon neutralizing our tours, by working with locally-owned businesses and supporting local non-profits whose aims are to support local causes, environments, or wildlife. With our Environmentally friendly and economic fuel utilization vehicles, We take you to amazing destinations, navigating far and wide, and when we do, it comes at a price in the form of carbon emissions, which contribute to climate change.',
-      image: SustainablityImageOne,
+      image: GreenWorld,
     },
     {
       head: 'WE SUPPORT LOCAL AND SUSTAINABLE BUSINESSES',
       description:
         'We believe that working with local communities helps reduce our impact on tourist destinations, while also providing amazing, unique experiences for our responsible clients. Our tours generally support local communities through the purchase of local goods and services, visiting social projects, and promoting authentic encounters that foster cross-cultural understanding. We also use locally owned lodges and hotels in our trips and arrange a village tours to support the local economy and reduce their dependence on Nature.',
-      image: SustainablityImageTwo,
+      image: UrbanFarming,
     },
     {
       head: 'POLLUTION',
       description:
         'We believe that reducing our carbon footprint will also have a beneficial impact on our local area by reducing congestion and air pollution. Using green and ecological principles, Buying eco-label products, Reducing paper consumption, Choosing suppliers who are committed to sustainability, Reducing our brochure use, encouraging clients to recycle their brochures, and using environmentally friendly cleaning materials are some of our best experience to reduce our impact against the environment.',
-      image: SustainablityImageThree,
+      image: EnvironmentallyFriendly,
     },
   ];
   return (
@@ -40,7 +40,7 @@ export const SustainablityDetail: React.FC = () => {
           <div className="w-full pt-10 lg:px-72 my-auto">
             <Image
               src={data.image}
-              className="w-full h-[300px] object-cover brightness-75 border rounded-2xl"
+              className="w-full h-[300px] object-cover brightness-75 border rounded-2xl hover:scale-110 transition duration-500"
               priority
               alt="AboutUsEthiopia"
             />
