@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import DestinationsHeroImage from '../public/Destinations/DestinationsHeroImage.jpg';
+import DestinationsHeroImage from '../public/2.jpg';
 
 export const DestinationsHero: React.FC = ({
   handledestinationChange,
