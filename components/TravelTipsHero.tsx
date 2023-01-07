@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import AboutEthiopiaHeroImage from '../public/AboutEthiopia/AboutEthiopiaHeroImage.png';
+import TravelTipsHeroImage from '../public/2.png';
 
 export const TravelTipsHero: React.FC = () => {
   return (
     <section className="w-full h-[380px]">
       <div className="relative">
         <Image
-          src={AboutEthiopiaHeroImage}
+          src={TravelTipsHeroImage}
           className="w-full h-[380px] object-cover lg:object-fit brightness-50"
           priority
           alt="Contact"
