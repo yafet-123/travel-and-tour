@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import AboutOne from '../public/AboutEthiopia/AboutOne.png';
-import AboutTwo from '../public/AboutEthiopia/AboutTwo.png';
-import AboutThree from '../public/AboutEthiopia/AboutThree.png';
-import AboutFour from '../public/AboutEthiopia/AboutFour.png';
-import AboutFive from '../public/AboutEthiopia/AboutFive.jpg';
-import AboutSix from '../public/AboutEthiopia/AboutSix.png';
+import AboutOne from '../public/adey ababa.png';
+import AboutTwo from '../public/Ethiopian_Warriors.jpg';
+import AboutThree from '../public/Addis-Ababa-Meskel-1.jpg';
+import AboutFour from '../public/AboutFour.png';
+import AboutFive from '../public/AboutFive.jpg';
+import AboutSix from '../public/AboutSix.png';
 
 export const AboutEthiopiaDetail: React.FC = () => {
   const Detail = [
