@@ -47,15 +47,15 @@ export const TravelTipsDetail: React.FC = () => {
         {Detail.map((data, index) => (
           <div
             key={index}
-            className="flex flex-col lg:flex-row first:bg-[#165248] odd:bg-[#165248]"
+            className="flex flex-col lg:flex-row even:bg-white even:text-black odd:bg-[#165248] odd:text-white hover:text-[#94BB3C]"
           >
             <div className="flex flex-col items-center w-full pt-5 lg:px-10">
-              <h1 className="text-center text-3xl lg:text-4xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-16">
+              <h1 className="text-center text-3xl lg:text-4xl font-sans leading-10 font-bold mb-16">
                 {data.name}
               </h1>
               <div
                 dangerouslySetInnerHTML={{ __html: data.description }}
-                className="mx-5 text-center text-lg lg:text-xl font-sans leading-10 font-bold text-white hover:text-[#94BB3C] mb-24"
+                className="mx-5 text-center text-xl lg:text-2xl font-sans leading-10 font-normal mb-24"
               />
             </div>
           </div>
