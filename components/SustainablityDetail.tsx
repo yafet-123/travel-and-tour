@@ -27,17 +27,17 @@ export const SustainablityDetail: React.FC = () => {
   return (
     <section className="py-10">
       {Detail.map((data, index) => (
-        <div className="flex flex-col even:bg-white odd:bg-[#165248] even:text-[#165248] odd:text-white mb-10 py-20 px-5">
+        <div className="flex flex-col even:bg-white odd:bg-[#165248] even:text-[#165248] odd:text-white mb-5 lg:mb-10 py-20 px-5">
           <div className="flex flex-col w-full lg:px-52">
-            <h1 className="text-left text-3xl lg:text-4xl font-sans leading-10 font-bold mb-10">
+            <h1 className="text-left text-3xl lg:text-4xl font-sans leading-10 font-bold mb-5 lg:mb-10">
               {data.head}
             </h1>
-            <p className="text-left text-lg lg:text-xl font-sans leading-10 font-bold mb-10">
+            <p className="text-left text-lg lg:text-2xl font-sans leading-8 lg:leading-10 font-normal mb-5">
               {data.description}
             </p>
           </div>
 
-          <div className="w-full pt-10 lg:px-72 my-auto">
+          <div className="w-full pt-10 lg:px-72 lg:my-auto">
             <Image
               src={data.image}
               className="w-full h-[300px] object-cover brightness-75 border rounded-2xl hover:scale-110 transition duration-500"
