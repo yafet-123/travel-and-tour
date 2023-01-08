@@ -47,9 +47,9 @@ export const TravelTipsDetail: React.FC = () => {
         {Detail.map((data, index) => (
           <div
             key={index}
-            className="flex flex-col lg:flex-row even:bg-white even:text-black odd:bg-[#165248] odd:text-white hover:text-[#94BB3C]"
+            className="mx-2 border-4 rounded-2xl flex flex-col lg:flex-row even:bg-white even:text-black odd:bg-[#165248] odd:text-white hover:text-[#94BB3C]"
           >
-            <div className="flex flex-col items-center w-full pt-5 lg:px-10">
+            <div className="flex flex-col items-center w-full pt-5 lg:px-10 ">
               <h1 className="text-center text-3xl lg:text-4xl font-sans leading-10 font-bold mb-16">
                 {data.name}
               </h1>
