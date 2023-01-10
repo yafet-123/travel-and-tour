@@ -1074,6 +1074,276 @@ Zeit. This will be a truly unforgettable experience.`,
     ],
   },
   {
+    id: 7,
+    title: '5 days trip to Danakil Depression',
+    shortDescription:
+      'This adventurous trip focuses on the arid north – east of the country which counts amongst its treasures the fascinating Danakil Depression, one of the lowest and hottest places on earth.',
+    accommodation: 'Hotels and Lodge',
+    transporation: 'Drive and Flight',
+    duration: '5 Days/ 4 Nights',
+    description: `The trip starts in Addis Ababa, the capital city of Ethiopia and center for
+      the African continent. Then the flight takes you to Semera, and center to start a trip to
+      explore the famous Denakil Depression aster the war in the tigray region. You will
+      undertake a memorable trek to the top of the active volcano Erta Ale before discovering
+      the alien salt landscapes of Dallol. The Danakil Depression lies between the Danakil
+      Alps (east) and the Ethiopian Plateau (west), which were once joined until the rifting
+      process tore them apart. The land surface is slowly sinking, and Danakil Depression will
+      someday fill with water as a new ocean or great lake is born. But for now, the region is
+      full of other interesting liquids.
+      The Danakil Depression is one of the lowest areas below sea level and is also the hottest
+      point on Earth as far as the year-round average temperatures are considered.Known by
+      the Afar as the “smoking mountain” and “the gateway to hell,” Erta Ale is a
+      2,011-foot-high constantly active basaltic shield volcano. It is one of only a handful of
+      continuously active volcanos in the world, and a member of an even more exclusive
+      group: volcanos with lava lakes. While there are only five known volcanos with lava
+      lakes globally, Erta Ale often has two active lava lakes – making it a unique site. Erta Ale
+      was discovered in 1906, making it the longest-known lava lake. Dallol has some of the
+      most colorful landscapes on Earth. The hot magma below heats groundwater flowing in
+      from the surrounding highlands. This hot water moves up toward the surface and
+      through the evaporite deposits, dissolving salt, potash, and other soluble minerals.`,
+    groupsize: '2-12',
+    imagePath: imageOne,
+    isFeatured: true,
+    detailedItinerary: [
+      {
+        day: 1,
+        title: 'Arrival and Domestic Flight to Semera',
+        detail: `Upon Arrival at Bole international Airport, you will be directly connected to your
+          domestic flight to Semera. Then, you will be picked up by our representative and start
+          your trip to the Afar region to visit the famous volcano with bubbling lava and have the
+          possibility of experiencing the nomadic Afar tribe living in the desert. The Danakil
+          Depression ‘begins’ here. It is one of the most spectacular regions of the world! The
+          drive will be on a paved road, with a few stops for coffee with the locals and lunch
+          prepared by your cook.The landscape will become drier and deserted. You will reach the
+          village Afdera afternoon, have a stop to explore and have a coffee with the locals. Then
+          continue the journey to Lake Afdera and the campsite. As the sun is setting, go for a
+          swim, floating on the surface of the salt lake and enjoying the nearby hot springs,
+          experiencing an incredible view.
+          `,
+        overnight: 'Camping at Afdera.',
+      },
+      {
+        day: 2,
+        title: 'Dallol',
+        detail: `After a delicious early breakfast, you will drive to Dallol ('a colorful place') via Asebo
+          ('the salt desert'), where the Afar people mine salt, cut it into rectangular pieces and load
+          it onto camels. The caravans start from here. Dallol Depression is officially listed as the
+          hottest place on earth, with an average temperature of 34-35 °C. Much of this vast and
+          practically unpopulated region lies below sea level, dipping to a frazzled nadir of -116m
+          at Dallol, near Lake Asale, the lowest spot on the African continent and one of the driest
+          and most tectonically active areas on the planet. Continue driving ahead to Dallol and
+          stroll through the different landscapes formed by volcanic activity. This is a yellow
+          moon-like kingdom of spectacular creations.`,
+        overnight: 'Camping at Dallol',
+      },
+      {
+        day: 3,
+        title: 'Proceed to Erta Ale',
+        detail: `After breakfast, it is a 70 km drive on sandy ground and over cold lava rocks. On the way
+          you will see the salt miners, the local Afar people. They pump saltwater over the surface
+          and let it evaporate to create a salt crust. Lunch will be served in Dodom village. Here
+          you have to show permission to climb Erta Ale ('the smoking mountain'), get the needed
+          camels for transporting the goods and more scouts. Dinner will be served at 5-ish since
+          you have to start trekking up to the volcano around 6-7 pm. Dodom is approximately
+          8.5km away from Erta Ale and this stretch will take about 3 hours to walk. Camels
+          transport all the camping materials and some food to the rim of the volcano, where you
+          will spend the night watching the dramatic actions of the boiling lava.`,
+        overnight: 'Camping at Erta Ale',
+      },
+      {
+        day: 4,
+        title: 'Erta Ale to Semera',
+        detail: `Today we leave the Afar region and drive towards Semera. You will reach Semera late
+          afternoon, check in to your hotel and spend the night.`,
+        overnight: 'Kuriftu Lodge or similar, Semera.',
+      },
+      {
+        day: 5,
+        title: 'Fly Back to Addis Ababa',
+        detail: `After breakfast, you will be transferred to Semera Airport and take a domestic flight to
+          Addis Ababa. Then, the tour ends with a drop off at Bole International Airport.`,
+        overnight: '',
+      },
+    ],
+    included: [
+      'Accommodation on a Shared Tent;',
+      'Domestic Airfare;',
+      'All meals (OPTIONAL);',
+      'Private Land Transport by an air-conditioned Car;',
+      'Entrance fees;',
+      'Local Guides;',
+      'Boat;',
+      'Government tax associated with the trip.',
+
+    ],
+    notincluded: [
+      'Day Use on the last day in Addis Ababa;',
+      'Alcoholol;',
+      'Photography and Video fees;',
+      'Bull jumping fees;',
+      'And what is NOT included on the “Included” List.',
+    ],
+  },
+  {
+    id: 8,
+    title: 'Trekking Trip on The Bale Mountains National Park',
+    shortDescription:
+      'This 7 days trip takes you to beautiful and breathtaking Bale Mountains National Park and hike through amazing scenery. ',
+    accommodation: 'Hotels and Campsites',
+    transporation: 'Drive',
+    duration: '7 Days/ 6 Nights',
+    description: `This itinerary let you to mingle and discover; The Mursi Tribe, renowned for their
+lip-plates; The Hamer famous for their bull jumping coming of age ceremony, The
+Konso known for their intricately-terraced hillsides, fine woven materials, and carved
+totems with which they decorate their graves; The Karo famous for their attractive body
+painting; The Dassenech (Gelab); The Ari known for their beautiful green villages and
+The Dorze well known cotton weavers. You will visit the weekly colorful local markets
+for spontaneous interactions and fantastic photo opportunities and attend authentic
+cultural events. This tour also includes visit to the Ethiopian Rift Valley to explore some
+of the natural wonders of the Great African Rift Valley. Visit Lake Awassa, Ziway and
+Langano to spot different birds, Abijatta-Shalla National Park; Boat trip on Lake Chamo
+to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience.`,
+    groupsize: '2-12',
+    imagePath: imageOne,
+    isFeatured: true,
+    detailedItinerary: [
+      {
+        day: 1,
+        title: 'Arrival at Addis Ababa, City tour',
+        detail: `Welcome to Ethiopia! Arrive at Addis Abeba Bole International Airport. Here you will be
+greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
+transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
+relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
+Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
+city full of contrasts. This city tour includes, The National Museum which houses the
+country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
+Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
+Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
+of the largest open air markets in Africa.
+`,
+        overnight: 'Eliana Hotel',
+      },
+      {
+        day: 2,
+        title: 'Drive to Arba Minch',
+        detail: `This morning after breakfast drive full day towards south to Arbaminch. Southern
+region is noted for its enormous variety of peoples &culture. Today your first stop will be
+at Adadi Mariam rock church which is believed to be built by king Lalibela around 11th
+century. Then visit Tiya stelae filed which is registered by UNESCO for its 600-800
+years old large stone pillars. There are around 36 standing stones 32 of which are
+engraved and decorated with enigmatic symbols marking a large prehistoric royal burial
+place. Continue further south through the territory of the Gurage and Alaba people and
+arrive at Arbaminch late in the afternoon`,
+        overnight: 'Haile Resort Arbaminch',
+      },
+      {
+        day: 3,
+        title: 'Boat trip on Lake Chamo and visit Dorze village',
+        detail: `In the morning embark on a boat trip on Lake Chamo, a lake that supports a large
+population of crocodiles, hippos and fish. First you will cross the lake and head to the
+east bank and climb the plateau to the NechSar national park to see Wild Zebras and
+Gazelles. Return to the boat trip & visit the famous Crocodile Market which is not a
+market but a place to see large concentration of giant Nile Crocodiles and many hippos.
+The lake is about 32 kms long and provides a lush wetland habitat for many of flora and
+fauna. In the afternoon visit the Dorzetribe who lives on the Guge Mountain. The Dorze
+are renowned for their cotton-weaving techniques and beehive shaped houses
+constructed entirely from organic materials. Here in their village you can see the unique
+beehive huts, observe their exceptional cotton weaving skills and learn about their life
+and traditions.`,
+        overnight: 'Haile Resort Arbaminch',
+      },
+      {
+        day: 4,
+        title: 'Drive to Turmi via Konso',
+        detail: `Following breakfast this morning travel to Turmi, a small town and center to visit the
+Omo valley tribes. On the way stop at Konso and visit their village. The Konso tribe is
+famous for their agricultural terracing method and for their wooden totems that honor
+the dead. The Konso villages are a world heritage listed site for its cultural significance.
+The villages are surrounded by high stone walls and encompass separate compounds.
+After lunch continue further south through the acacia forest to Turmi. If today is a
+market day you will get the chance to visitone of the following colorful markets, Alduba
+(every Tuesday), Keyafer (every Thursday)or Dimeka (every Saturday).`,
+        overnight: 'Turmi Lodge',
+      },
+      {
+        day: 5,
+        title: 'Hammer and Karo tribes',
+        detail: `This morning begin an excursion to the Karo tribe. The Karo excel in face and body
+painting that is practiced especially during their dances and ceremonies. They pulverize
+locally found white chalk, yellow mineral rock, red iron ore and black charcoal to
+decorate their bodies often mimicking the spotted plumage of a Guinea Fowl. The men
+create highly decorated clay hair buns which can take several days to complete. Return
+to Turmi and after lunch and short break late in the afternoon at the sun set visit the
+village of the famous Hamer tribe village located close to Turmi. The Hamer tribe is
+known for the fine pottery they produce as well as their remarkable hair style. The
+women are striking wearing beautiful colorful beaded goat skins, ornate necklaces and
+metal bangles around their wrist and ankles. These decorations indicate the wealth and
+prestige of a woman’s husband.`,
+        overnight: 'Turmi Lodge',
+      },
+      {
+        day: 6,
+        title: 'Excursion to Omorate and continue to Jinka',
+        detail: `Cross Omo River to visit Dassanech tribe. Omorate lies on the bank of the OmoRiver
+close to the border of Kenya. You will cross the OmoRiver with a local boat and walk to
+one of the village of the Dassenech. The Dassenech are semi-nomadic tribe living on the
+shores of Omo River. Their clans stretch across Sudan, Kenya and southern Ethiopia.
+They are known for their very unique and ornate hair buns. They grow crops and fish.
+Then return back to Turmi and continue further south to Jinka.`,
+        overnight: 'Eco Omo Lodge.',
+      },
+      {
+        day: 7,
+        title: 'Mursi Tribe and Ari Vilages',
+        detail: `This morning you will drive through the Mago national park to visit one of the villages of
+the Mursi Tribe. The Mursi,possibly the most well-known tribe in the area, is famous for
+both for their women who practice extending their lower lips with clay discs and their
+men who engage in stick fighting rituals called Donga. The Mursi are probably the last
+tribes in Africa amongst whom it is still the norm for women to wear those large pottery
+or wooden discs or plates. Afterwards, return to Jinka and after lunch break, short drive
+to the village of Ari tribe. The people of Ari live in the lush surroundings of the Jinka and
+grow coffee and fruits for trading and self-consumption. Their villages are green and
+surrounded by banana, mango and avocado. The most beautiful in the country.
+`,
+        overnight: 'Eco Omo Lodge',
+      },
+      {
+        day: 8,
+        title: 'Fly back to Addis and Departure',
+        detail: `In the morning visit the Jinka museumwhich contains the southern Omo research
+centers permanent cultural collections and containing research of the various
+ethnicgroups and provide an in-depth overview into the people and traditions of the
+Omo valley. Then transfer to Jinka airport for your flight back to Addis Abeba. Arrive in
+Addis in the afternoon. Then transfer to hotel to rest and get settled before your night
+flight or you can do last minute shopping. In the evening enjoy final farewell dinner at a
+well-known local Ethiopian restaurant with cultural dances. Later this evening you will
+be transferred to Addis Abeba Bole International Airport for your return flight back
+home.
+`,
+        overnight: '',
+      },
+    ],
+    included: [
+      'Accommodation on a Shared Room Extra USD 192.00 per person for SRS;',
+      'Domestic Airfare;',
+      'All meals (OPTIONAL);',
+      'Private Land Transport by an air-conditioned Car;',
+      'Entrance fees;',
+      'English Speaking cultural guide;',
+      'Local Guides;',
+      'Boat;',
+      'Government tax associated with the trip.',
+    ],
+    notincluded: [
+      'Day Use on the last day in Addis Ababa;',
+      'Alcoholol;',
+      'Photography and Video fees;',
+      'Bull jumping fees;',
+      'And what is NOT included on the “Included” List.',
+    ],
+  },
+
+  {
     id: 10,
     title: 'Trip to North Historic Route With Timkat Festival',
     shortDescription:
