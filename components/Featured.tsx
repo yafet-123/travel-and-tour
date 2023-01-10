@@ -1,4 +1,3 @@
-
 export const Featured: React.FC = () => {
   const FeaturedTour = [
     {
