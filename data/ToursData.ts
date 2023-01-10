@@ -1491,8 +1491,7 @@ Zeit. This will be a truly unforgettable experience.`,
       },
       {
         day: 3,
-        title:
-          'Yemrehanna Kristos Church and visit the 3rd group in Lalibela',
+        title: 'Yemrehanna Kristos Church and visit the 3rd group in Lalibela',
         detail: `Today’s excursion takes you out of the town of Lalibela and visit one of fascinating rock
         churches located around the town. In the morning drive out to Yemrhane Kristos cave
         church built inside the cave in Aksumite wood and stone construction style. The church
@@ -1556,8 +1555,7 @@ Zeit. This will be a truly unforgettable experience.`,
       },
       {
         day: 7,
-        title:
-          'Attend the main ceremony and explore Gonder',
+        title: 'Attend the main ceremony and explore Gonder',
         detail: `Early in the morning (around 3:30am) transfer to Bath of Fasil to witness the main part
           of this fascinating religious ceremony. The Kiddase (Divine Liturgy) is administered
           near the pools early in the morning. Passages from the story of the Baptism of Jesus
