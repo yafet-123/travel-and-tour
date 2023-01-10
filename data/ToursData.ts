@@ -1192,154 +1192,144 @@ Zeit. This will be a truly unforgettable experience.`,
     accommodation: 'Hotels and Campsites',
     transporation: 'Drive',
     duration: '7 Days/ 6 Nights',
-    description: `This itinerary let you to mingle and discover; The Mursi Tribe, renowned for their
-lip-plates; The Hamer famous for their bull jumping coming of age ceremony, The
-Konso known for their intricately-terraced hillsides, fine woven materials, and carved
-totems with which they decorate their graves; The Karo famous for their attractive body
-painting; The Dassenech (Gelab); The Ari known for their beautiful green villages and
-The Dorze well known cotton weavers. You will visit the weekly colorful local markets
-for spontaneous interactions and fantastic photo opportunities and attend authentic
-cultural events. This tour also includes visit to the Ethiopian Rift Valley to explore some
-of the natural wonders of the Great African Rift Valley. Visit Lake Awassa, Ziway and
-Langano to spot different birds, Abijatta-Shalla National Park; Boat trip on Lake Chamo
-to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience.`,
+    description: `The Bale Mountains are high mountains, which are
+      an area for a great trekking experience Trekking in the Bale Mountains is easy and can
+      be done by everybody who can deal with the high altitude of more than 4000m. The
+      Mountains support the most extensive area of Afro alpine and sub alpine Ericaceous
+      vegetation in Africa. They have the highest rate of animal endemicity of any terrestrial
+      habitat in the world, which was the principal reason for the creation of the Bale
+      Mountains National Park in 1970. Book this trip to enjoy the stunning scenery, the
+      endemic mammals and birds of Ethiopia.
+      The high altitude, afro-montane Sanetti Plateau rises to over 4,000m and includes the
+      highest peak in the southern Ethiopia highlands. This undulating plateau is marked by
+      numerous glacial lakes and swamps and surrounded by higher volcanic ridges and
+      peaks. The southern slopes are covered by the lush and largely unexplored Harenna
+      Forest. The place is known for its unimaginable and wholly unique natural beauty and
+      wildlife. Thanks to the isolation of these mountains, the park has an incredibly high
+      number of endemic species, and the wide altitudinal range has resulted in a variety of
+      belts of vegetation that support many niche species of both flora and fauna. The open
+      spaces of the high Sanetti Plateau are possibly the easiest place to see the rare Ethiopian
+      wolf, while nearby Harenna Forest is the place to find bush pig, giant forest hog, grey
+      duiker and occasionally lion and leopard. Menelik’s bushbuck, the endemic mountain
+      Nyala and giant mole rat, all endemic to the Bale Mountains, can also be seen here. The
+      park is a bird paradise with several endemic birds including the thick-billed raven,
+      Wattled Ibis, blue-winged goose, and Rouget’s rail.`,
     groupsize: '2-12',
     imagePath: imageOne,
     isFeatured: true,
     detailedItinerary: [
       {
         day: 1,
-        title: 'Arrival at Addis Ababa, City tour',
+        title: 'Arrive in Addis Ababa, city tour',
         detail: `Welcome to Ethiopia! Arrive at Addis Abeba Bole International Airport. Here you will be
-greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
-transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
-relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
-Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
-city full of contrasts. This city tour includes, The National Museum which houses the
-country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
-Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
-Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
-of the largest open air markets in Africa.
-`,
+          greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
+          transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
+          relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
+          Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
+          city full of contrasts. This city tour includes, The National Museum which houses the
+          country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
+          Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
+          Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
+          of the largest open air markets in Africa.`,
         overnight: 'Eliana Hotel',
       },
       {
         day: 2,
-        title: 'Drive to Arba Minch',
-        detail: `This morning after breakfast drive full day towards south to Arbaminch. Southern
-region is noted for its enormous variety of peoples &culture. Today your first stop will be
-at Adadi Mariam rock church which is believed to be built by king Lalibela around 11th
-century. Then visit Tiya stelae filed which is registered by UNESCO for its 600-800
-years old large stone pillars. There are around 36 standing stones 32 of which are
-engraved and decorated with enigmatic symbols marking a large prehistoric royal burial
-place. Continue further south through the territory of the Gurage and Alaba people and
-arrive at Arbaminch late in the afternoon`,
-        overnight: 'Haile Resort Arbaminch',
+        title: 'Travel to Bale mountains National Park',
+        detail: `After breakfast, start a full day scenic drive to the Bale Mountains National Park,
+          traveling through Nazareth (Adama) town and the southeast part of the capital, where
+          fertile land is cultivated by the Oromo people. Arrive at Dinsho, Park head quarter, in
+          the afternoon, in time for a walk around to see three of the endemic mammals:
+          Menelik's Bushbuck and Mountain Nyala. And birds like Blue-winged Goose,
+          Spot-Breasted Lapwing, Abyssinian Long Claw, Wattled Ibis, Black-Headed Siskin,
+          Rouget’s Rail, and of course other species, too. Finally transfer to Goba town.`,
+        overnight: 'Wabeshebelle hotel.',
       },
       {
         day: 3,
-        title: 'Boat trip on Lake Chamo and visit Dorze village',
-        detail: `In the morning embark on a boat trip on Lake Chamo, a lake that supports a large
-population of crocodiles, hippos and fish. First you will cross the lake and head to the
-east bank and climb the plateau to the NechSar national park to see Wild Zebras and
-Gazelles. Return to the boat trip & visit the famous Crocodile Market which is not a
-market but a place to see large concentration of giant Nile Crocodiles and many hippos.
-The lake is about 32 kms long and provides a lush wetland habitat for many of flora and
-fauna. In the afternoon visit the Dorzetribe who lives on the Guge Mountain. The Dorze
-are renowned for their cotton-weaving techniques and beehive shaped houses
-constructed entirely from organic materials. Here in their village you can see the unique
-beehive huts, observe their exceptional cotton weaving skills and learn about their life
-and traditions.`,
-        overnight: 'Haile Resort Arbaminch',
+        title: 'Dinsho to Sodota',
+        detail: `Today after breakfast, you will start the trek to the first camp Sodota, through the lush
+          vegetation of the web valley. Continue to the waterfall of FinchaHabera. During the trek,
+          we may see wolves from Abyssinia and other wild animals and the high-altitude
+          endemic birds such as: Blue Winged Goose.
+          Walking Time: 5/6 Hours
+          Distance- 18 kms
+          Elevation: 3,500 meters.`,
+        overnight: 'Sodota Campsite',
       },
       {
         day: 4,
-        title: 'Drive to Turmi via Konso',
-        detail: `Following breakfast this morning travel to Turmi, a small town and center to visit the
-Omo valley tribes. On the way stop at Konso and visit their village. The Konso tribe is
-famous for their agricultural terracing method and for their wooden totems that honor
-the dead. The Konso villages are a world heritage listed site for its cultural significance.
-The villages are surrounded by high stone walls and encompass separate compounds.
-After lunch continue further south through the acacia forest to Turmi. If today is a
-market day you will get the chance to visitone of the following colorful markets, Alduba
-(every Tuesday), Keyafer (every Thursday)or Dimeka (every Saturday).`,
-        overnight: 'Turmi Lodge',
+        title: 'Sodota to Keyrensa',
+        detail: `Continue hiking to Keyrensa camp through the magical landscapes of the valleys and
+          gorges of the Web, skirting mount Wasemaand the extraordinary viewpoint of the
+          Wasama Valley. Watch many species of birds, including raptors, as well as the
+          Abyssinian wolf. Along today’s route you will have stops at special viewpoints for
+          photography. This hike is a bit more challenging than others with the high altitude, but
+          you will enjoy it and get unforgettable trekking experience.
+          Walking Time: 6.5 Hours
+          Distance- 18 kms`,
+        overnight: 'Keyrensa Campsite',
       },
       {
         day: 5,
-        title: 'Hammer and Karo tribes',
-        detail: `This morning begin an excursion to the Karo tribe. The Karo excel in face and body
-painting that is practiced especially during their dances and ceremonies. They pulverize
-locally found white chalk, yellow mineral rock, red iron ore and black charcoal to
-decorate their bodies often mimicking the spotted plumage of a Guinea Fowl. The men
-create highly decorated clay hair buns which can take several days to complete. Return
-to Turmi and after lunch and short break late in the afternoon at the sun set visit the
-village of the famous Hamer tribe village located close to Turmi. The Hamer tribe is
-known for the fine pottery they produce as well as their remarkable hair style. The
-women are striking wearing beautiful colorful beaded goat skins, ornate necklaces and
-metal bangles around their wrist and ankles. These decorations indicate the wealth and
-prestige of a woman’s husband.`,
-        overnight: 'Turmi Lodge',
+        title: 'Keyrensa to Rafu',
+        detail: `Today’s hike takes you towards Rafu camp site. It is located at almost 4000 m altitude
+          on the escarpment of the immense Senate Plateau, territory of the endemic Ethiopian
+          Wolf. The climb to Rafu passes via the Harenna escarpment, where you will enjoy a
+          breathtaking view of the forest, 2000m below. You will have the opportunity to see the
+          Rock Hyrax, birds of prey, and klipspringer .You will reach at the camp, surrounded by
+          rock pillars, fruits of an old lava flow.
+          Walking Time: 6.5/ 7Hours
+          Distance- 20 kms
+          Elevation: 3,900 - 4,100 meters`,
+        overnight: 'Rafu Campsite',
       },
       {
         day: 6,
-        title: 'Excursion to Omorate and continue to Jinka',
-        detail: `Cross Omo River to visit Dassanech tribe. Omorate lies on the bank of the OmoRiver
-close to the border of Kenya. You will cross the OmoRiver with a local boat and walk to
-one of the village of the Dassenech. The Dassenech are semi-nomadic tribe living on the
-shores of Omo River. Their clans stretch across Sudan, Kenya and southern Ethiopia.
-They are known for their very unique and ornate hair buns. They grow crops and fish.
-Then return back to Turmi and continue further south to Jinka.`,
-        overnight: 'Eco Omo Lodge.',
+        title: 'Rafu to Harenna forest',
+        detail: `Today’s trek takes you through Harenna Forest, second in the country by its density.
+          Like a landscape from a Grimm fairy tale, you'll pass through twisted, moss-covered
+          trees that give the place a magical atmosphere. This area is home to many species of
+          primates, such as the Olive Baboon, the Gurezera Monkey and the Balé Monkey
+          (recently discovered species, close to the vervet Monkey). Some Leopards, sometimes
+          Lions and Wild dogs find refuge there, but rarely show. Continue your hiking to the
+          bamboo forest and the waterfalls. In the village of Rira, locals will surely show you their
+          hospitality around a traditional ceremony of coffee or tea.
+          Walking Time: 7 Hours.
+          Distance- 22 kms
+          Elevation: 3,900 meters.`,
+        overnight: 'Rira Campsite',
       },
       {
         day: 7,
-        title: 'Mursi Tribe and Ari Vilages',
-        detail: `This morning you will drive through the Mago national park to visit one of the villages of
-the Mursi Tribe. The Mursi,possibly the most well-known tribe in the area, is famous for
-both for their women who practice extending their lower lips with clay discs and their
-men who engage in stick fighting rituals called Donga. The Mursi are probably the last
-tribes in Africa amongst whom it is still the norm for women to wear those large pottery
-or wooden discs or plates. Afterwards, return to Jinka and after lunch break, short drive
-to the village of Ari tribe. The people of Ari live in the lush surroundings of the Jinka and
-grow coffee and fruits for trading and self-consumption. Their villages are green and
-surrounded by banana, mango and avocado. The most beautiful in the country.
-`,
-        overnight: 'Eco Omo Lodge',
-      },
-      {
-        day: 8,
-        title: 'Fly back to Addis and Departure',
-        detail: `In the morning visit the Jinka museumwhich contains the southern Omo research
-centers permanent cultural collections and containing research of the various
-ethnicgroups and provide an in-depth overview into the people and traditions of the
-Omo valley. Then transfer to Jinka airport for your flight back to Addis Abeba. Arrive in
-Addis in the afternoon. Then transfer to hotel to rest and get settled before your night
-flight or you can do last minute shopping. In the evening enjoy final farewell dinner at a
-well-known local Ethiopian restaurant with cultural dances. Later this evening you will
-be transferred to Addis Abeba Bole International Airport for your return flight back
-home.
-`,
+        title: 'Drive back to Addis Ababa',
+        detail: `Today you will drive back to Addis Ababa. Then transfer to hotel to rest and get settled
+          before your night flight or you can do last minute shopping. In the evening enjoy final
+          farewell dinner at a well-known local Ethiopian restaurant with cultural danses. Later
+          this evening you will be transferred to Addis Abeba Bole International Airport for your
+          return flight back home.`,
         overnight: '',
       },
     ],
     included: [
-      'Accommodation on a Shared Room Extra USD 192.00 per person for SRS;',
-      'Domestic Airfare;',
-      'All meals (OPTIONAL);',
-      'Private Land Transport by an air-conditioned Car;',
-      'Entrance fees;',
-      'English Speaking cultural guide;',
-      'Local Guides;',
-      'Boat;',
-      'Government tax associated with the trip.',
-    ],
+      '11 Nights Accommodation on a Shared Room/Tent Extra USD 244.00 per person for Single Room Supplement);',
+      'Ground Transport by an air-conditioned Vehicle;',
+      'All Meals;',
+      'English Speaking Guide;',
+      'Applicable Local Guides;',
+      'All airport pickups and dropoffs;',
+      'Camping greats, utensils, cook, and food during camping;',
+      'Mule and muleteer during camping;',
+      'All Entrance Fees;',
+      'Service Charge and Tax Inclusive.',
+      ],
     notincluded: [
       'Day Use on the last day in Addis Ababa;',
-      'Alcoholol;',
-      'Photography and Video fees;',
-      'Bull jumping fees;',
-      'And what is NOT included on the “Included” List.',
+      'FOC Leader;',
+      'International Airfare;',
+      'Alcoholic Expenses;',
+      'Any Photography and Video fees;',
+      'And what is NOT included on the “Included” List',
     ],
   },
 
