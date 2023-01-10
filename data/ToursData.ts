@@ -1332,6 +1332,110 @@ Zeit. This will be a truly unforgettable experience.`,
       'And what is NOT included on the “Included” List',
     ],
   },
+  {
+    id: 7,
+    title: 'Harar and Awash National Park',
+    shortDescription:
+      'Have you ever thought of feeding and befriending a hyena? What could it feel like to get near the ferocious beast with its bone-crushing teeth and short hind legs?',
+    accommodation: 'Hotels and Lodge',
+    transporation: 'Drive',
+    duration: '5 Days/ 4 Nights',
+    description: `A tour across
+      Harar, the walled city in eastern Ethiopia, will give you a daring experience that you will
+      cherish for the rest of your life. Harar is one of the oldest towns in Ethiopia; it is known
+      as a walled city with five gates. As the fourth most important city in the Islamic world,
+      Hara houses over 100 mosques and shrines. The long, winding alleys of the city, with
+      their colorfully painted walls, are worth capturing with your camera. The market in the
+      old city is also worth a visit; you will find delicately embroiled textile to take home as a
+      token of your visit. Take a walk in the streets of Harar and you will get a chance to see
+      the colorful dresses of the magnificent Harari women.
+      This trip also takes you to the Awash National Park which is located between Oromia
+      and Afar regions, 215 km from Addis Ababa. The park is home to over 80 species of
+      mammals including Ethiopia’s largest protected population of Beisa Oryx. The park is
+      named after the Awash River and covers an area of 827 square kilometers.`,
+    groupsize: '2-12',
+    imagePath: imageOne,
+    isFeatured: true,
+    detailedItinerary: [
+      {
+        day: 1,
+        title: 'Arrival at Addis Ababa',
+        detail: `Welcome to Ethiopia! Arrive at Addis Abeba Bole International Airport. Here you will be
+          greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
+          transferred to hotel. Then your trip will start with a drive to Entoto mountain, Addis
+          Ababa's highest mountain, is located on the outskirts of the city. With its very rural flair
+          and the scent of the forests, it is the ideal place to arrive calmly after your flight. For
+          acclimatization you take a short walk through the eucalyptus forests (approx. 1 hour in
+          flat terrain). Up here, a fascinating overview of this growing metropolis of Ethiopia
+          awaits us. The scent of the eucalyptus forests invites you to stay. In one of the coffee
+          houses you enjoy our first Ethiopian coffee from the charcoal fire. Afterwards you visit
+          the Derg Museum, which deals with the time of the Red Terror in Ethiopia in the
+          1970/80s and is one of the best, though sad, museums in the city.`,
+        overnight: 'Eliana Hotel.',
+      },
+      {
+        day: 2,
+        title: 'Drive to Awash National Park',
+        detail: `After breakfast, we drive from Addis to Awash National Park through the awe-inspiring
+          crater lakes of Debrezeit. Awash National Park, located in the Rift Valley, is enriched
+          with many species of birds and mammals: African orange-bellied parrots, bustards,
+          weavers, European Hoope somber rock-chat, yellow-throated serine, Red-fronted
+          barbet, pygmy baits, Lesser striped swallow, House martin and Anubis Baboon, Colobus
+          Monkey, Black-backed Jackal, Bat-eared Fox, Egyptian Mongoose, Warthog, Beisa Oryx,
+          Soemmering’s Gazelle, Lesser Kudu, Salt’s Dik-dik, etc.`,
+        overnight: 'Doho Lodge.',
+      },
+      {
+        day: 3,
+        title: 'Continue to Harar',
+        detail: `Drive from Awash to Harar across the Rift Valley floor and along the spine of the
+          beautiful Ahmar Mountains to Harar. This early 16th century eastern Ethiopian city was
+          once an important trade centre and is famous for its ancient Arabic structures, great city
+          walls, and the French poet Rimbaud's house. Harar is an Islamic centre with at least 99
+          mosques and is considered to be the fourth holiest Islamic city, after Mecca, Medina and
+          Jerusalem. Early in the evening visit the Hyena man feeding outside the walls of the city.`,
+        overnight: 'Ras Hotel.',
+      },
+      {
+        day: 4,
+        title: 'Walled Town Of Harar',
+        detail: `You will have an early breakfast and visit the walled city of Jegol, the house of Arthur
+          Rimbaud (a French poet who lived in the 1880s in Harar), Emperor Haile Selassie home
+          (where he was born & raised) and Harari Cultural Museum. You will start exploring the
+          16th century UNESCO registered wall city of Harar. Including the colourful local
+          market, the famous museums and holy shrine. You will also enjoy the visit to the
+          colourful market in Harar.`,
+        overnight: 'Ras Hotel.',
+      },
+      {
+        day: 5,
+        title: 'Return To Addis Ababa',
+        detail: `After a relaxed breakfast, we will drive to Addis Ababa. You will arrive in Addis Ababa
+          late afternoon where you will do some shopping for souvenirs. Finally, you will be taken
+          to a farewell dinner depending on your scheduled flight. You will then be transferred to
+          the Bole International Airport for return flight back home.`,
+        overnight: '',
+      },
+    ],
+    included: [
+      'Accommodation on a Shared Room;',
+      'Domestic Airfare;',
+      'Meals ;',
+      'Private Land Transport by an air-conditioned Car;',
+      'Entrance fees;',
+      'English Speaking cultural guide;',
+      'Local Guides;',
+      'Boat;',
+      'Government tax associated with the trip.',
+    ],
+    notincluded: [
+      'Day Use on the last day in Addis Ababa;',
+      'Alcoholol;',
+      'Photography and Video fees;',
+      'Bull jumping fees;',
+      'And what is NOT included on the “Included” List.',
+    ],
+  },
 
   {
     id: 10,
