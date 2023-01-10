@@ -146,7 +146,7 @@ home.
         overnight: '',
       },
     ],
-    included:[
+    included: [
       'Accommodation on a Shared Room Extra USD 192.00 per person for SRS;',
       'Domestic Airfare;',
       'All meals (OPTIONAL);',
@@ -157,7 +157,7 @@ home.
       'Boat;',
       'Government tax associated with the trip.',
     ],
-    notincluded:[
+    notincluded: [
       'Day Use on the last day in Addis Ababa;',
       'Alcoholol;',
       'Photography and Video fees;',
@@ -354,7 +354,8 @@ home.
       },
       {
         day: 12,
-        title: 'Explore the imperial capital(Gondar), back to Addis and departure',
+        title:
+          'Explore the imperial capital(Gondar), back to Addis and departure',
         detail: `In the morning visit Gondar. Located on the high plateau, Gondar was the imperial
           capital for 200 years and famed for its medieval castles and churches. Visit the Royal
           Enclosure home to dramatic 17th-century castles built by different emperors. These
@@ -370,7 +371,7 @@ home.
         overnight: '',
       },
     ],
-    included:[
+    included: [
       '11 Nights Accommodation on a Shared Room/Tent Extra USD 314.00 per person for Single Room Supplement);',
       'Domestic flights if your international flight is with Ethiopian Airlines; extra USD 297.00 per person;',
       'Ground Transport by an air-conditioned Vehicle;',
@@ -382,9 +383,8 @@ home.
       'Mule and muleteer during camping;',
       'All Entrance Fees;',
       'Service Charge and Tax Inclusive.',
-
     ],
-    notincluded:[
+    notincluded: [
       'Day Use on the last day in Addis Ababa;',
       'FOC Leader;',
       'International Airfare;',
@@ -569,7 +569,7 @@ major National parks in the country that are famous for their wild life are incl
         overnight: '',
       },
     ],
-    included:[
+    included: [
       '11 Nights Hotel Accommodation on a Shared Room Extra USD 294.00 per person for Single Room Supplement);',
       'Domestic flights;',
       'All meals (OPTIONAL);',
@@ -578,10 +578,8 @@ major National parks in the country that are famous for their wild life are incl
       'Local Guides;',
       'Scout fees;',
       'Government tax associated with the trip.',
-
-
     ],
-    notincluded:[
+    notincluded: [
       'Day Use on the last day in Addis Ababa;',
       'FOC Leader;',
       'International Airfare;',
@@ -825,7 +823,7 @@ travel experience and you leave for the return flight to home.
         overnight: '',
       },
     ],
-    included:[
+    included: [
       'Accommodation on a Shared Room;',
       'Domestic Airfare;',
       'Meals ;',
@@ -835,10 +833,8 @@ travel experience and you leave for the return flight to home.
       'Local Guides;',
       'Boat;',
       'Government tax associated with the trip.',
-
-
     ],
-    notincluded:[
+    notincluded: [
       'Day Use on the last day in Addis Ababa;',
       'Alcoholol;',
       'Photography and Video fees;',
@@ -878,233 +874,202 @@ Zeit. This will be a truly unforgettable experience.`,
     detailedItinerary: [
       {
         day: 1,
-        title: 'Arrival at Addis Ababa, City tour',
+        title: 'Arrival at Addis Ababa airport',
         detail: `Welcome to Ethiopia! Arrive at Addis Abeba Bole International Airport. Here you will be
-greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
-transferred to hotel. Then your trip will start with a drive to Entoto mountain, Addis
-Ababa's highest mountain, is located on the outskirts of the city. With its very rural flair
-and the scent of the forests, it is the ideal place to arrive calmly after your flight. For
-acclimatization you take a short walk through the eucalyptus forests (approx. 1 hour in
-flat terrain). Up here, a fascinating overview of this growing metropolis of Ethiopia
-awaits us. The scent of the eucalyptus forests invites you to stay. In one of the coffee
-houses you enjoy our first Ethiopian coffee from the charcoal fire. Afterwards you visit
-the Derg Museum, which deals with the time of the Red Terror in Ethiopia in the
-1970/80s and is one of the best, though sad, museums in the city.
+          greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
+          transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
+          relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
+          Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
+          city full of contrasts. This city tour includes, The National Museum which houses the
+          country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
+          Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
+          Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
+          of the largest open air markets in Africa.
           `,
         overnight: 'Eliana Hotel.',
       },
       {
         day: 2,
-        title: 'The Great African Rift & Menelik II. palace',
-        detail: `Today you leave the bustling metropolis and drive through the Ethiopian highlands to
-Ankober, the old Ethiopian capital. On the way you pass through the flat and densely
-populated agricultural areas of the highlands. After lunch in Debre Birhan the road
-turns east towards Ankober. The last kilometers to the lodge you hike along the old
-imperial trade route with a wide view into the African Rift Valley. On the way to the Rift
-Valley you have a good chance to see the first birds of pray or even the endemic
-blood-breasted baboons. The village Ankober is situated on a mountain with great views
-into the surrounding lowlands of Eastern Ethiopia. After a short ascent to the mountain
-where the Emperors Palace was build, you move into your room in the Ankober Palace
-Lodge, a replica of the palace of Emperor Menelik II. (19th century). In the evening you
-dine imperially in the large dining room of the lodge and sit together around the
-campfire during a typical Ethiopian coffee ceremony to escape the coolness of the night.`,
-        overnight: 'Ankober Palace Loge.',
+        title: 'Drive to Dinsho, Bale Mountains National Park Headquarter',
+        detail: `After breakfast, we continue our journey through Shashamane to Dinsho, where the
+          headquarters of the Bale Mountains National Park are located (approx. 5 hours). In the
+          afternoon we undertake a gentle, very interesting walk around the headquarters in
+          Dinsho and almost certainly encounter animals such as warthogs, the endemic Menelik
+          bushbuck or the Mountain Nyala as well as a variety of birds.`,
+        overnight: 'Wabe Shebelle Hotel.',
       },
       {
         day: 3,
-        title: ' Menz Guassa Conservation Area',
-        detail: `Today a gravel road brings you to the high plateau of Menz Guassa. On the way you
-make stops and look down into the lowlands at breathtaking viewpoints. Here it is
-always a good idea to walk some parts of the route. There is the possibility to walk the
-last kilometers to the accommodation and thus to go on a game walk for antelopes and
-the rare Ethiopian wolf in the nature reserve.
-At 3,100 meters you finally reach the Guassa Plateau, a unique ecosystem more intact
-than that of the famous Simien Mountains. The next two nights you will stay in a
-self-catering Eco-lodge built in the traditional style, which is part of an ecotourism
-project.
+        title: 'Excursion to Sanetti Plateau and Harena Forest',
+        detail: `Today it will take us approx. 5-6 hrs to explore the Senetti Plateau, usually the best place
+          to see the Ethiopian wolf. We also will have a chance to visit the Crane Lakes and climb
+          the 2nd highest point of Ethiopia “Mount Tullu Deemtu,” offering at an altitude 4377 m
+          spectacular views of the surrounding areas.
+          Afternoon drive further down to Harenna Forest for birding includes the Abyssinian
+          Catbird, Abyssinian Woodpecker, White-backed Black Tit, Abyssinian Ground Thrush,
+          Yellow-crowned Canary, Somali Chestnut Winged Starling, Olive Pigeon and Mountain
+          Buzzard.
           `,
-        overnight: 'Menz Guassa community Lodge',
+        overnight: 'Wabe Shebelle Hotel.',
       },
       {
         day: 4,
-        title: 'Menz Guassa Conservation Area',
-        detail: `From the lodge you explore the surroundings on foot and learn more about the flora and
-fauna in Menz and an interesting nature conservation project once implemented by the
-Frankfurt Zoological Society to protect the highland ecosystem and support the farmers,
-here on the high plateau. Finally you reach the escarpment with views into the valleys
-1,500 meters below. Here dozens of blood-breasted baboons can be observed. you can
-join these peaceful animals without hesitation. With a little luck you can also admire the
-shy Ethiopian wolves and other mountain dwellers. In the afternoon you stop at a
-farmers house for a cup of coffee. In the evening you enjoy this unique mountain world
-and doze into a restful silent night under the endless Ethiopian starry sky.
-`,
-        overnight: 'Menz Guassa community Lodge.',
+        title: 'Drive to Lake Hawassa',
+        detail: `Morning, drive to Lake Hawassa, which is on the edge of Abaro Mountains and Rift
+          valley, rich with the habitat of edge effect species, includes Spotted Creeper, Banded
+          Barbet, Black-winged Lovebird, Grey-backed Fiscal, Double-toothed Barbet, Beautiful
+          Sunbird, woodland and Pygmy Kingfisher, Blue-headed Coucal, Abyssinian Waxbill,
+          Red-throated Wryneck and White-rumped Babbler. Among shorebirds, African Pygmy
+          Goose, White-backed Duck, Black Crake, Lesser and African Jacana, Goliath Heron,
+          Purple Heron, Fulvous and White-faced whistling Ducks, Grosbeaks Weaver, Common
+          Waxbill, Bronze Manikin, Pied and Malachite Kingfishers, Marabou Stork, Great White
+          Pelican, Reed and Great Cormorant, Egrets, Hottentot Teal, Spur-winged Goose,
+          Squacco Heron, Grey-headed Gull, Whiskered and White-winged Terns are some to
+          mention.
+        `,
+        overnight: 'Haile Resort Hawassa.',
       },
       {
         day: 5,
-        title: ' Drive to Dessie',
-        detail: `Today the road winds over impressive serpentines down to almost 2,000 meters and
-you drive through green valleys where the farmers irrigate their fields with the river
-waters coming from the highlands. After 40 km of gravel road you reach the paved
-highway heading north.
-Here in the lowlands you see an Ethiopia that is very different from the one you have
-seen so far. You meet camels and the temperatures often rise above 35 degrees Celsius.
-The landscapes here are drier and predominantly inhabited by Muslims. These areas
-were once characterized by famines and droughts. Today they are a flourishing oasis
-with a lot of agriculture. Also the bird life is getting really colorful for the first time
-during your trip. Ethiopia's lowlands are one of the most bird rich habitats in the world.
-Along the way you have a lunch break before stopping in Dessie for an overnight stay.`,
-        overnight: 'Golden Gate Hotel',
+        title: 'Travel to Arba Minch',
+        detail: `Today, you’ll drive 275 km, Arba Minch. On the way, stop at Senkele Wildlife Sanctuary
+          to watch the Swayne's Hartebeest. In this small nature reserve one almost can see the
+          extremely rare Swayson's Hartebeest of which less than 500 survive in the wild, all in
+          Ethiopia. A typical visit, whether driving or walking, goes through the savannah, where
+          Swayne’s and oribi antelope are sure to be seen, and then up to Borena Hill, 6km from
+          the headquarters, for views of Lake Awassa and likely wildlife encounters with warthogs,
+          olive baboons, vervet monkeys and bushbuck.`,
+        overnight: 'Haile Resort Arba Minch',
       },
       {
         day: 6,
-        title: 'Continue to Lalibela',
-        detail: `You leave the lowlands and drive from Dessie back to the highlands. Still in the morning
-you head for Lake Hayk, a green oasis and ideal place for bird watching. During your
-coffee break here you can watch all kinds of water birds, parakeets and kingfishers.
-For lunch you stop at the home of an Ethiopian family. Afterwards you continue your
-journey westwards to the mountainous regions of Wollo and Lasta: for centuries the
-heartland of the Ethiopian emperors and Ethiopian Orthodox Christianity. In the
-evening you finally reach the holy town of Lalibela and relax with a delicious dinner with
-a view of the Lasta Mountains.`,
-        overnight: 'Sora Lodge.',
+        title: 'Lake Chamo and Dorze Village',
+        detail: `In the morning embark on a boat trip on Lake Chamo, a lake that supports a large
+          population of crocodiles, hippos and fish. First you will cross the lake and head to the
+          east bank and climb the plateau to the NechSar national park to see Wild Zebras and
+          Gazelles. Return to the boat trip & visit the famous Crocodile Market which is not a
+          market but a place to see large concentration of giant Nile Crocodiles and many hippos.
+          The lake is about 32 kms long and provides a lush wetland habitat for many of flora and
+          fauna. In the afternoon visit the Dorzetribe who lives on the Guge Mountain. The Dorze
+          are renowned for their cotton-weaving techniques and beehive shaped houses
+          constructed entirely from organic materials. Here in their village you can see the unique
+          beehive huts, observe their exceptional cotton weaving skills and learn about their life
+          and traditions.`,
+        overnight: 'Haile Resort Arbaminch.',
       },
       {
         day: 7,
-        title: 'Visit the rock-hewn churches of Lalibela & climb to Hudad',
-        detail: `Lalibela is one of the most important pilgrimage centers for Orthodox Christians in
-Ethiopia and is known for its 800-year-old monolithic rock churches, which were
-chiseled into the soft tuff stone from top to bottom and from the outside to the inside in
-decades of detailed work. You will spend the morning sightseeing, walking through dark
-tunnels from one church to the next. Lunch in the city.
-In the late afternoon you start your hike to a small Eco-lodge in picturesque scenery
-above the city. Sustainable tourism, appreciation of the local culture and nature, fresh
-food and friendly service are the principles followed by the staff and the community of
-Lalibela Hudad. The remote Hudad Lodge is an oasis in the nature with 360 degree
-mountain panorama and will be the starting point for the hikes in the following days
-and can only be reached on foot or by mule`,
-        overnight: 'Hudad Eco-Lodge',
+        title: 'NechiSar National Park',
+        detail: `After breakfast, drive to NechiSar National Park to visit many species of birds and
+          mammals. This Park is located in the Rift Valley. It is enriched with many species of
+          birds and mammals; African orange-bellied parrots, bustards, weavers, Somber
+          rock-chat, yellow-throated serin, Red-fronted Barbet, Pygmy baits, Lesser striped
+          swallow, and Anubis baboons, Black-backed Jackal, Bat-eared Fox, Egyptian Mongoose,
+          Warthog, Soemmering’s Gazelle, Lesser Kudu, Salt’s Dikdik, etc`,
+        overnight: 'Haile Resort Arbaminch.',
       },
       {
         day: 8,
-        title: 'Hike to Asheten Mariam Church',
-        detail: `The lodge is far away from the hustle and bustle of the city. Up here you experience the
-Ethiopian country life and pure nature. After an invigorating breakfast you start the half
-day tour to the nearby table mountain of Asheten. At the top you visit the Asheten
-Mariam Monastery with its up to 800 years old parchment writings and crosses, which
-are shown to you by a priest.
-Once the rock churches of Lalibela were supposed to be built up there, but finally the
-kings in the old days decided in favor of the lower situated and better accessible
-Lalibela. The hike is rewarded with great views over the region
-          `,
-        overnight: 'Hudad Eco-Lodge.',
+        title: 'Drive to Turmi',
+        detail: `After Breakfast, drive to the Konso small town, where the people wear colorful
+          costumes, and use their steep land through impressive terracing; through annual
+          wooden grave marks, they express their status. Their three-story community house
+          called Mora is impressive; all the young boys above 12 years old stay there every night
+          inside till they marry. - Have lunch in Weyto and continue driving to the Arbore tribe,
+          who are pastoralists (livestock farmers). They believe that their singing and dancing
+          eliminates negative energy and with the negative energy gone, the tribe will prosper. The
+          women of the tribe cover their heads with a black cloth and are known to wear very
+          colorful necklaces and earrings. Young children wear a shell type hat that protects their
+          heads from the sun. The Abore use natural colors made from soil and stone for their
+          Body paint. Traditional dancing is practiced by the tribe and wealth is measured by the
+          number of cattle a tribesman owns. Finally, drive to Turmi overnight.`,
+        overnight: 'Turmi Lodge',
       },
       {
         day: 9,
-        title: 'Hudad Villages',
-        detail: `Today you will make another excursion to the nearby high plateau and its villages, with
-the focus on meeting the farmers. During the half-day round trip you will immerse
-yourself in their culture and have the opportunity to get an insight into the simple
-dwellings of the farmers. During the visit of the villages you will be welcomed with a
-traditional foot-washing, which is prepared for guests up here.
-`,
-        overnight: 'Hudad Eco-Lodge',
+        title: 'Nyangatom and Karo',
+        detail: `Early morning, depart from Turmi to the village of Kangatan. Here you will cross the
+          Omo River and take a short walk through the local fields to visit a village of the
+          Nyangatom tribe. After the visit, return across the river and proceed to the Karo village
+          of Korcho, with a stunning location lookin over the Omo River. The Karo people, while
+          the smallest tribe of the Omo Valley in number, are also known to be the most
+          decorated. After the visit, return to Turmi for another opportunity to see Jumping of the
+          Bulls.`,
+        overnight: 'Turmi Lodge',
       },
       {
         day: 10,
-        title: 'Excursion to Yemrehanna Christos Church',
-        detail: `After breakfast you start your descend to Lalibela and drive to the Yemrehanna Christos
-church (about 42 km). This church is built in the style of late Axumite architecture and
-with its beautiful frescoes in the middle of a cave is a real insider tip. Together you visit
-the cemetery with the grave of Saint Yemrehanna. At the church the group meets again
-and drives back to Lalibela together. Here you will have dinner together at sunset with
-views over the Lasta Mountains.`,
-        overnight: 'Sora Lodge',
+        title: 'Excursion to Omorate',
+        detail: `After breakfast, Cross Omo River to visit the Dassanech tribe. The First time, in the Omo
+          Valley, travelers witnessed Ethiopia's many ethnicities and cultural traditions. The
+          Southern Cultural Route takes travelers to the heart of the most remote tribes, whose
+          animist beliefs strike a chord with the true African experience.
+          In the afternoon drive to Hammer people who have a bull-jumping ceremony; This
+          ceremony is a transformation for young boys from young to adulthood; During the
+          ceremony, you see the real Hamer traditional dance called Evangadi; and also the
+          women from the jumper’s family are being beaten by his friends to show their love to the
+          Jumper and that he is ready for adulthood.`,
+        overnight: 'Turmi Lodge',
       },
       {
         day: 11,
-        title: 'Drive to Bahir Dar, on the way Awra Amba community',
-        detail: `On today's travel day to Bahir Dar you visit the village of the godless Awra Amba along
-the way. About 400 people live here in a community that has renounced the faith in
-order to be happy together. You get to know Zumra Nuru, the founder of the
-community, and visit the old people's home, the weaving mill, the library and the village
-school. Awra Amba is a cooperative project with a moving and poor past, which has now
-worked its way up to a certain level of prosperity. A prosperity that is not always seen as
-benevolent by the neighboring villages. An exciting excursion that will raise many
-questions. In the evening you reach Bahir Dar at Lake Tana after a long driving day from
-Lalibela.
+        title: 'Drive to Jinka Via Bena Tribe',
+        detail: `After breakfast, start driving to Jinka Via Bena Tribe. Just like most of the indigenous
+          tribes in the lower Omo Valley, the Bena practice ritual dancing and singing. The men
+          often have their hair dressed up with a colorful clay cap that is decorated with feathers.
+          Both the men and women wear long garments and paint their bodies with white chalk.
+          Women of the tribe wear beads in their hair that is held together with butter.
           `,
-        overnight: 'Jacaranda Hotel',
+        overnight: 'Eco Omo',
       },
       {
         day: 12,
-        title: 'Lake Tana and its monasteries',
-        detail: `Bahir Dar is located on the southern shore of Lake Tana, the largest lake in Ethiopia.
-The lake is a habitat for more than 300 different bird species and numerous mammals.
-In the morning you take a boat trip across Lake Tana past island monasteries and
-numerous bird colonies that use some of the islands for breeding. Arriving on the Zeghe
-Peninsula, you will walk through the coffee forest, which for centuries has enabled the
-inhabitants to survive by selling the delicious beans. Through the undergrowth, shaded
-by mighty acacia trees, you walk through the forest and finally reach the Ura Kidane
-Miheret Church with paintings from the 17th and 18th century. After a picnic on the lake
-shore you return to the mainland. The afternoon is at leisure.
-`,
-        overnight: 'Jacaranda Hotel',
+        title: 'Explore Mursi tribe and Drive to Konso',
+        detail: `Drive to Mago National Park to visit the Mursi people in their village. The Mursi are well
+          known for the large clay discs their women wear inserted in their lower split lip. The
+          Mursi women start cutting their lips between the age of 12 and 16 and thereafter, they
+          put small wooden plugs into the hole and change it every night with the bigger one to
+          stretch the lips till it can hold a 6 inch (15cm) round clay disc. The Mursi men wear very
+          little, although a cotton wrap is becoming more common now. Then, Drive to Konso for
+          Overnight.`,
+        overnight: 'Kanta Lodge',
       },
       {
         day: 13,
-        title: 'Journey to Gondar',
-        detail: `The old town of Gondar is now a UNESCO World Heritage Site and the castles are also
-called the 'Camelot of Africa'. Today you visit these old palaces, as well as the bath house
-and the Debre Birhan Selassie Church, one of the most beautifully painted churches in
-the country`,
-        overnight: 'Goha Hotel',
+        title: 'Drive to Langano',
+        detail: `Morning, start driving to Lake Langano, where we will spend the night. In the
+          afternoon/evening relax at the lakeside by riding a kayak boat or swimming.`,
+        overnight: 'Sabana Lodge',
       },
       {
         day: 14,
-        title: 'Drive to simien mountains National Park',
-        detail: `After breakfast drive to Simien Mountain National Park. Debark is a small market town
-at an altitude of 2700 meters close to the boundary of the Simien Mountains National
-Park. Corrugated–iron–roofed buildings surround the colourful and busy market area.
-Before entering the park, you have to register at the park headquarters just outside
-town. Here, armed scout one of the park regulations, joins you. Then drive to Sankaber
-for the best view. En route, pass through pretty country, the foothills of the Semen
-Mountains, with carefully tended field, open pasture with grazing horses, stands of trees
-and distant rocky peaks. At the high point of the road, there are superb views across the
-weirdly eroded foothills of the range and you may also be lucky enough to spot you first
-Lammergeiers and Gelada Baboons of the trip.`,
-        overnight: 'Simien Lodge',
-      },
-      {
-        day: 15,
-        title: 'Community Tours in Simien Mountains',
-        detail: `You will spend most of the time participating in community works. Some of the
-community works are local beer making, injera baking, coffee ceremony, black smith,
-and more. You will try almost everything the local people do in their daily life. Finally
-you will drive back to Gondar and take a flight to Addis Ababa. A dinner rounds off your
-travel experience and you leave for the return flight to home.
-`,
+        title: 'Back to Addis Ababa',
+        detail: `After breakfast, A nice ride will take you to Addis Ababa. Along the way, you will pass
+          Lake Koka, an artificial lake and Lake Ziway. You make a stop at this last-mentioned
+          lake where you can see various bird species, such as pelicans, black ibises, hammerheads
+          and marabou. Along the way, you come across shepherds who roam here with their
+          cattle. They make a biblical impression. You will Arrive in Addis Ababa in the afternoon.
+          Finally, The tour ends with a drop off at Bole International Airport for your flight.
+          `,
         overnight: '',
       },
     ],
-    included:[
-      'Accommodation on a Shared Room;',
-      'Domestic Airfare;',
-      'Meals ;',
-      'Private Land Transport by an air-conditioned Car;',
-      'Entrance fees;',
-      'English Speaking cultural guide;',
-      'Local Guides;',
+    included: [
+      '13 Nights Hotel Accommodation on a Shared Room Extra USD 712.00 per person for Single Room Supplement);',
+      'Domestic flights if your international flight is with Ethiopian Airlines; extra USD 306.00 per pax if your flight is with other airlines;',
+      'All meals (OPTIONAL);',
+      'Land Transport;',
+      'English Speaking guide;',
+      'Local Guides and scout fees;',
       'Boat;',
       'Government tax associated with the trip.',
-
-
     ],
-    notincluded:[
+    notincluded: [
       'Day Use on the last day in Addis Ababa;',
-      'Alcoholol;',
-      'Photography and Video fees;',
-      'Bull jumping fees;',
+      'FOC Leader;',
+      'International Airfare;',
+      'Alcoholic Expenses;',
+      'Any Photography and Video fees;',
       'And what is NOT included on the “Included” List.',
     ],
   },
