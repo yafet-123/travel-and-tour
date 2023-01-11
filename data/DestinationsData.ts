@@ -1,3 +1,7 @@
+import Tana from '../public/lake-Tana.png';
+import Fasiledes from '../public/fasiledes.jpg';
+import Lalibela from '../public/lalibela-destination.png';
+
 import { DestinationsType } from '../types/types';
 
 const DestinationsData: DestinationsType[] = [
@@ -23,8 +27,7 @@ const DestinationsData: DestinationsType[] = [
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.
             `,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: Tana,
       },
       {
         id: 2,
@@ -41,10 +44,8 @@ const DestinationsData: DestinationsType[] = [
             from where it’s (apparently) possible to see all the way to Lake Tana.
             Behind the castle are various ruined buildings, including the kitchen (domed ceiling),
             steam bath and water cistern.`,
-
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
-      },
+          imageUrl: Fasiledes,
+        },
       {
         id: 3,
         title: 'Rock Hewn churches of Lalibela',
@@ -52,8 +53,7 @@ const DestinationsData: DestinationsType[] = [
           Ethiopia since the 6th and 7th centuries, but these churches are attributed to the
           13th-century King Lalibela. They demonstrate an extraordinary level of architectural
           detail in their construction. Today, the churches are still very much alive, and a place of
-          pilgrimage for many Ethiopians.
-          There are two main groups of churches – to the north of the river Jordan: Biete
+          pilgrimage for many Ethiopians.There are two main groups of churches – to the north of the river Jordan: Biete
           Medhani Alem (House of the Saviour of the World), Biete Mariam (House of Mary),
           Biete Maskal (House of the Cross), Biete Denagel (House of Virgins), Biete Golgotha
           Mikael (House of Golgotha Mikael); and to the south of the river, Biete Amanuel (House
@@ -65,8 +65,7 @@ const DestinationsData: DestinationsType[] = [
           connecting paths and tunnels, with detailed studies of some of the design features cut
           into the rock. Some examples of ancient religious art and manuscripts, maintained by
           the priests in each church are shown.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: Lalibela ,
       },
       {
         id: 4,
@@ -75,15 +74,13 @@ const DestinationsData: DestinationsType[] = [
           Axum is home to a 24-metre megalith surrounded by a ring of smaller Obelisks.
           Built in the 4th century by King Ezana, the 160 tonne monument had stood in place for
           over a thousand years, until the colonial aspirations of a nation far from Ethiopia
-          arrived at her borders.
-          The Italian occupation of Ethiopia is considered by many a period of hardship within
+          arrived at her borders.The Italian occupation of Ethiopia is considered by many a period of hardship within
           the country, with many long hidden artefacts and national treasures being stolen by the
           occupiers, and despite its mammoth measurements, the Monolith of Axum was taken
           from Ethiopians in the 1930s. Found, semi-submerged in a pit by a group of Italian
           soldiers in 1935, the Obelisk was removed from its home, partially dismantled, and after
           over two years in limbo, was transported to Rome as a spoil of war`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: ,
       },
     ],
   },
