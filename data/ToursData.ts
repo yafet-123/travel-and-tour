@@ -8,6 +8,162 @@ import { ToursObject } from './types';
 
 const TourSummaryArray: ToursObject[] = [
   {
+    id: 1,
+    title: 'Trip to North Historic Route',
+    shortDescription:
+      'This trip takes you deep into human history.',
+    accommodation: 'Hotels',
+    transporation: 'Drive and Flight',
+    duration: '8 Days/ 7 Nights',
+    description: `The discovery begins in Addis Ababa with a
+      panoramic escape to Mt. Entoto and an important stop at the National Archaeological
+      Museum, home of the 3.5 million-year-old bones of Lucy, the world’s oldest hominid.
+      Continue to the north to the amazing rock-hewn churches, hidden crypts and grottoes in
+      Lalibela (which is considered to be the 8th wonder of the world); The 500-year-old
+      monastery islands of Bahirdar on Lake Tana and taking in views of the Blue Nile and its
+      fall. Then you will drive to Gondar for the elegant castles. The itinerary also incudes, The
+      majestic geological formations of the Simien Mountains (meeting red-chested Gelada
+      baboons).`,
+    groupsize: '2-12',
+    imagePath: imageOne,
+    isFeatured: true,
+    detailedItinerary: [
+      {
+        day: 1,
+        title: 'Arrive in Addis Ababa, city tour',
+        detail: `Welcome to Ethiopia! Arrive at Addis Abeba Bole International Airport. Here you will be
+          greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
+          transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
+          relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
+          Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
+          city full of contrasts. This city tour includes, The National Museum which houses the
+          country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
+          Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
+          Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
+          of the largest open air markets in Africa.`,
+        overnight: 'Eliana Hotel',
+      },
+      {
+        day: 2,
+        title: 'Fly to Lalibela for the rock hewn churches',
+        detail: `In the morning transfer to Addis Abeba Bole International Airport for a short Scenic
+          flight to Lalibela. Up on arrival at Lalibela airport you will meet your Guide and transfer
+          to your accommodation. You will spend the day exploring one of the world’s most
+          remarkable historic sites. The 11 rock churches of Lalibela are believed to be built 900
+          years ago by Saint King Lalibela. These elaborate edifices are each carved by hand
+          entirely out of a single block of living granite rock and considered as ‘8th Wonders of the
+          World’, ‘Jerusalem of Africa’ and ‘Petra of Africa’. It is a deeply spiritual place and
+          UNESCO world heritage site. These churches are divided into two groups. The first
+          group symbolizes Earthly Jerusalem while the second represents Heavenly Jerusalem.
+          Today you will visit the first group of churches.`,
+        overnight: 'Maribela Hotel',
+      },
+      {
+        day: 3,
+        title: 'Yemrehanna Kristos Church',
+        detail: `Today’s excursion takes you out of the town of Lalibela and visit one of fascinating rock
+          churches located around the town. In the morning drive out to Yemrhane Kristos cave
+          church built inside the cave in Aksumite wood and stone construction style. The church
+          has become famous for its interior. The flat-span roof displays paneling richly adorned
+          with geometrical designs. The ceiling over the sanctuary is domed and displays carvings
+          and paintings. The founder of the church is Saint King Yemrhane Kristos a predecessor
+          of Saint King Lalibela. Drive back to Lalibela and after lunch break visit the Second
+          Group of 11 Rock Churches of King Lalibela.`,
+        overnight: 'Maribela Hotel',
+      },
+      {
+        day: 4,
+        title: 'Drive to Bahir Dar',
+        detail: `Today you will enjoy a full day scenic drive to Bahirdar, a beautiful city located next to
+          Lake Tana and capital to Amhara regional state. The drive takes you through the
+          spectacular northern highland scenery and gives you the chance to see the life of the
+          local Amhara people. On the way stop and visit the Small community Awramba.The
+          Awramba are famous for their unique way of life, philosophy, Social and economic
+          system. Meet the founder or other representative of the community and listen to their
+          philosophy. Arrive in Bahirdar late in the afternoon.`,
+        overnight: 'Jacaranda Hotel',
+      },
+      {
+        day: 5,
+        title: 'Bahir Dar, Boat trip and drive to Blue Nile Falls',
+        detail: `In the morning embark on a boat trip of Lake Tana. Covering 3,600 sq. kms, this is
+          Ethiopia’s largest lake and home to 37 islands. 20 of these islands house some of the
+          country’s most venerated monasteries, which many of them believed to date back to the
+          13th& 14th century and feature superb ecclesiastical art. First you will visit the
+          monastery of Ura Kidane Miheret on the Zege Peninsula famous for its incredible wall
+          paintings and collection of cross and crowns. Continue to Betre Mariam monastery and
+          then the boat will return to Bahirdar via the source of the Blue Nileand here you might
+          see some Hippos on the lake. After lunch break at the lake shore enjoy an hour scenic
+          drive to the famous and stunning Blue Nile falls. The fall known as “the water that
+          smokes” in Amharic, is located about 32kms south of Bahirdar. The Blue Nile Fall
+          measure over 400 meters wide and descends 48 meters in full flood. You can take a
+          longer scenic walk (1.5kms) or a short walk to reach the foot of the falls. Then cross the
+          Nile River with a boat to reach to your car and drive back to Bahirdar.`,
+        overnight: 'Jacaranda Hotel',
+      },
+      {
+        day: 6,
+        title: 'Drive to Gondar',
+        detail: `Leaving Bahirdar this morning and drive further north to Gondar. Enjoy a 4 hours
+          scenic drive through the northern highlands. Then, you will visit sites in Gondar.
+          Located on the high plateau, Gondar was the imperial capital for 200 years and famed
+          for its medieval castles and churches. Spend the afternoon visiting the city’s Royal
+          Enclosure home to dramatic 17th century castles built by different emperors. These
+          whole complexes of buildings are unique in Ethiopia and never found elsewhere in
+          Africa and known as the Camelot of Africa. After the castles stop by the famous church
+          of Debre Berhan Selassie, one of the finest in Ethiopia. The walls and ceilings covered
+          with stunning ancient murals.`,
+        overnight: 'Goha Hotel',
+      },
+      {
+        day: 7,
+        title: 'Drive to Simien Mountains',
+        detail: `Following breakfast this morning, continue traveling north to the Simen Mountains.
+          After two hours scenic drive stop at the town of Debark, where the park headquarter
+          located, to full fill park regulations and get local guide and park scout. Then you will
+          drive in to the Simen Mountains National Park to start short hike (2-3hrs) through the
+          breathtaking scenery. Today you might have a chance to see the endemic Ethiopian
+          Gelada Baboons and klipspringers. After finishing your hike spent the night in the lodge
+          or drive back to Debark town. The simen mountains range lies north of Gondar and
+          many of the peaks rise above 4,000 meters, with the highest point of Ras Dashen at
+          4,620 meters absl. Being the fourth highest in Africa. The striking towers and
+          formations have been described as ‘the chess pieces of the gods’. The park is home to
+          some of the world’s most elusive animals, like the Walia Antelope and Ethiopian Wolf.`,
+        overnight: 'Ras Dejene Hotel',
+      },
+      {
+        day: 8,
+        title: ' Fly Back to Addis Ababa',
+        detail: `After breakfast, start driving to Gondar, Transfer to the airport to catch a fight that takes
+          you back to Addis Abeba. Arrive in Addis in the afternoon. Transfer to hotel to rest and
+          get settled before your night flight or you can do last minute shopping. In the evening
+          enjoy final farewell dinner at a well-known local Ethiopian restaurant with cultural
+          danses. Later this evening you will be transferred to Addis Abeba Bole International
+          Airport for your return flight back home.`,
+        overnight: '',
+      },
+    ],
+    included: [
+      '7 Nights Hotel Accommodation;',
+      'Domestic flights;',
+      'All meals;',
+      'Land Transport;',
+      'English Speaking guide;',
+      'Local Guide;',
+      'Scout fees;',
+      'Boat trip at Lake Tana;',
+      'Government tax associated with the trip.',
+    ],
+    notincluded: [
+      'Day Use on the last day in Addis Ababa;',
+      'FOC Leader;',
+      'International Airfare;',
+      'Alcoholic Expenses;',
+      'Any Photography and Video fees;',
+      'And what is NOT included on the “Included” List.',
+    ],
+  },
+  {
     id: 2,
     title: 'Cultural Exploration of Omo Valley',
     shortDescription:
