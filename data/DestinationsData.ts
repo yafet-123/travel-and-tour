@@ -1,6 +1,17 @@
 import Tana from '../public/lake-Tana.png';
 import Fasiledes from '../public/fasiledes.jpg';
 import Lalibela from '../public/lalibela-destination.png';
+import Axum from '../public/axum.png';
+import SimienMountainsNationalPark from '../public/Simien Mountains National Park.png';
+import BalemountainsNationalPark from '../public/Attractions-naturall-endemic-mammals-MOUNTAIN-NYALA-overland-ethiopia-tour.jpg';
+import DanakilDepression from '../public/Danakil Depression.png';
+import AwashNationalPark from '../public/Awash National Park.png';
+import OmoValley from '../public/OmoValley.png';
+import Harar from '../public/Harar.png';
+import Meskel from '../public/Meskel.png';
+import Timket from '../public/Timket.png';
+import Gena from '../public/Gena.png';
+
 
 import { DestinationsType } from '../types/types';
 
@@ -80,7 +91,7 @@ const DestinationsData: DestinationsType[] = [
           from Ethiopians in the 1930s. Found, semi-submerged in a pit by a group of Italian
           soldiers in 1935, the Obelisk was removed from its home, partially dismantled, and after
           over two years in limbo, was transported to Rome as a spoil of war`,
-        imageUrl: ,
+        imageUrl: Axum,
       },
     ],
   },
@@ -96,16 +107,14 @@ const DestinationsData: DestinationsType[] = [
           sharp precipices dropping some 1,500 m. The park is of global significance for
           biodiversity conservation because it is home to globally threatened species, including
           the iconic Walia ibex, a wild mountain goat found nowhere else in the world, the Gelada
-          baboon and the Ethiopian wolf.
-          The property’s spectacular landscape is part of the Simien mountain massif, which is
+          baboon and the Ethiopian wolf. The property’s spectacular landscape is part of the Simien mountain massif, which is
           located on the northern limit of the main Ethiopian plateau and includes the highest
           point in Ethiopia, Ras Dejen. The undulating plateau of the Simien mountains has over
           millions of years been eroded to form precipitous cliffs and deep gorges of exceptional
           natural beauty. Some cliffs reach 1,500 m in height and the northern cliff wall extends
           for some 35 km. The mountains are bounded by deep valleys to the north, east and
           south, and offer vast vistas over the rugged-canyon like lowlands below.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: SimienMountainsNationalPark,
       },
       {
         id: 2,
@@ -118,8 +127,7 @@ const DestinationsData: DestinationsType[] = [
           wolf, handsome mountain nyala, and delightful Bale monkey, while its incredible
           avifauna is reflected by the African Birding Club having listed it as one of the continent’s
           top five birding hotspots.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: BalemountainsNationalPark,
       },
       {
         id: 3,
@@ -136,8 +144,7 @@ const DestinationsData: DestinationsType[] = [
           temperatures of more than 1,000˚C, this ellipsoid cauldron of black-and-red magma is a
           truly mesmerizing phenomenon, as violent red fountains of molten rock spurt tens of
           meters in the sky, accompanied by nose-searing waves of ammonia gas.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: DanakilDepression,
       },
       {
         id: 4,
@@ -148,8 +155,7 @@ const DestinationsData: DestinationsType[] = [
           pigs, dik-dik, baboons, kudus, giant tortoise, hippos, aardvarks, hyrax, and Colobus
           monkeys. Bird life is prolific, particularly along the river and in forest area, 392 species
           have been recorded.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: AwashNationalPark ,
       },
     ],
   },
@@ -169,8 +175,7 @@ const DestinationsData: DestinationsType[] = [
           languages derived from what is now considered one of the six great families of
           Afro-Asiatic, a language family represented exclusively by these peoples. Visit our
           Ethiopia Omo Valley tour packages for optional cultural tour suggestions.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: OmoValley,
       },
       {
         id: 2,
@@ -179,14 +184,12 @@ const DestinationsData: DestinationsType[] = [
           traditions, and artwork. While visiting the cultural attractions in Harar would prove to
           be informative, attending its artsy events will leave you entertained. From cultural
           performances to historical monuments that give you a glimpse of the past, take a look at
-          this list to know Harar better.
-          The impact of African and Islamic traditions on the development of the town’s specific
+          this list to know Harar better.The impact of African and Islamic traditions on the development of the town’s specific
           buildings types and urban layout make for the particular character and even uniqueness
           of Harar. The Harari people are known for the quality of their handicrafts, including
           weaving, basket making and book-binding, but the houses with their exceptional
           interior design constitutes the most spectacular part of Harar’s cultural heritage.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: Harar,
       },
     ],
   },
@@ -210,8 +213,7 @@ const DestinationsData: DestinationsType[] = [
           of thousands of people, both locals and tourists, gather to watch the colourfully dressed
           priests chant, pray and dance. There are also equally magnificent celebrations across the
           country, including in Axum and Gondar.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: Meskel,
       },
       {
         id: 2,
@@ -229,9 +231,7 @@ const DestinationsData: DestinationsType[] = [
           churches across the country. Covered by an ornamental cloth, accompanied by songs,
           blowing of trumpets and burning incense, the Tabot will be taken to a tent, close to a
           pool or stream.`,
-
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: Timket,
       },
       {
         id: 3,
@@ -245,8 +245,7 @@ const DestinationsData: DestinationsType[] = [
           Christians in all of Ethiopia observe Genna. For the celebration, hundreds of priests and
           thousands of pilgrims, including the patriarch of the Ethiopian Orthodox Church,
           usually congregate.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: Gena,
       },
     ],
   },
